@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^configuration options\u003d\"(.*?)\"$",
+    "steps": [
+      {
+        "name": "configuration options\u003d\"VERBOSE\u003dfalse\"",
+        "aggregatedDurations": {
+          "average": 0.001782884,
+          "median": 0.001782884
+        },
+        "durations": [
+          {
+            "duration": 0.001782884,
+            "location": "mercurytours/setup_flight_reservations1.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:given )?(?:below )?list of itineraries$",
+    "steps": [
+      {
+        "name": "below list of itineraries",
+        "aggregatedDurations": {
+          "average": 0.007439685,
+          "median": 0.007439685
+        },
+        "durations": [
+          {
+            "duration": 0.007439685,
+            "location": "mercurytours/setup_flight_reservations1.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^login(?: to)?(?: Mercury Tours)?(?: and)?(?: with)?(?: browser\u003d\"(.*?)\")?$",
+    "steps": [
+      {
+        "name": "login to Mercury Tours with browser\u003d\"chromedriver\"",
+        "aggregatedDurations": {
+          "average": 9.801121076,
+          "median": 9.801121076
+        },
+        "durations": [
+          {
+            "duration": 9.801121076,
+            "location": "mercurytours/setup_flight_reservations1.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:above )?scenario should( not)? (pass|succeed|fail)$",
+    "steps": [
+      {
+        "name": "above scenario should succeed",
+        "aggregatedDurations": {
+          "average": 0.001545482,
+          "median": 0.001545482
+        },
+        "durations": [
+          {
+            "duration": 0.001545482,
+            "location": "mercurytours/setup_flight_reservations1.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^set maximum retries\u003d(\\d+)$",
+    "steps": [
+      {
+        "name": "set maximum retries\u003d3",
+        "aggregatedDurations": {
+          "average": 0.000931009,
+          "median": 0.000931009
+        },
+        "durations": [
+          {
+            "duration": 0.000931009,
+            "location": "mercurytours/setup_flight_reservations1.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^reserving them$",
+    "steps": [
+      {
+        "name": "reserving them",
+        "aggregatedDurations": {
+          "average": 25.455600021,
+          "median": 25.455600021
+        },
+        "durations": [
+          {
+            "duration": 25.455600021,
+            "location": "mercurytours/setup_flight_reservations1.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

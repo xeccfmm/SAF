@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.975742">
+<testcase classname="As a user of Mercury Tours, I should be able to login into the Mercury Tours website and make several flight reservations" name="Flight reservations 1" time="41.975742">
+<system-out><![CDATA[Given login to Mercury Tours with browser="chromedriver"....................passed
+And configuration options="VERBOSE=false"...................................passed
+And set maximum retries=3...................................................passed
+Given below list of itineraries.............................................passed
+When reserving them.........................................................passed
+Then above scenario should succeed..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,3678 @@
+[1526298928.456][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "start-maximized", "verbose", "disable-popup-blocking", "disable-extensions", "user-data-dir=c:/work/saf3.0/temp" ],
+            "extensions": [  ],
+            "prefs": {
+               "directory_upgrade": true,
+               "dom.successive_dialog_time_limit": "0",
+               "download.default_directory": "c:/work/saf3.0/downloads/May14_2018_07_55",
+               "download.prompt_for_download": false,
+               "profile.content_settings.pattern_pairs.*.multiple-automatic-downloads": 1,
+               "profile.default_content_settings.notifications": "0",
+               "profile.default_content_settings.popups": "0",
+               "profile.default_zoom_level": "0"
+            }
+         },
+         "proxy": {
+            "proxyType": "SYSTEM"
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "start-maximized", "verbose", "disable-popup-blocking", "disable-extensions", "user-data-dir=c:/work/saf3.0/temp" ],
+            "extensions": [  ],
+            "prefs": {
+               "directory_upgrade": true,
+               "dom.successive_dialog_time_limit": "0",
+               "download.default_directory": "c:/work/saf3.0/downloads/May14_2018_07_55",
+               "download.prompt_for_download": false,
+               "profile.content_settings.pattern_pairs.*.multiple-automatic-downloads": 1,
+               "profile.default_content_settings.notifications": "0",
+               "profile.default_content_settings.popups": "0",
+               "profile.default_zoom_level": "0"
+            }
+         },
+         "proxy": {
+            "proxyType": "system"
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "start-maximized", "verbose", "disable-popup-blocking", "disable-extensions", "user-data-dir=c:/work/saf3.0/temp" ],
+         "extensions": [  ],
+         "prefs": {
+            "directory_upgrade": true,
+            "dom.successive_dialog_time_limit": "0",
+            "download.default_directory": "c:/work/saf3.0/downloads/May14_2018_07_55",
+            "download.prompt_for_download": false,
+            "profile.content_settings.pattern_pairs.*.multiple-automatic-downloads": 1,
+            "profile.default_content_settings.notifications": "0",
+            "profile.default_content_settings.popups": "0",
+            "profile.default_zoom_level": "0"
+         }
+      },
+      "proxy": {
+         "proxyType": "SYSTEM"
+      }
+   }
+}
+[1526298928.460][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "directory_upgrade": true,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "dom": {
+      "successive_dialog_time_limit": "0"
+   },
+   "download": {
+      "default_directory": "c:/work/saf3.0/downloads/May14_2018_07_55",
+      "prompt_for_download": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "*": {
+               "multiple-automatic-downloads": 1
+            },
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": "0",
+         "popups": "0",
+         "ppapi-broker": 1
+      },
+      "default_zoom_level": "0",
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1526298928.462][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1526298928.468][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-extensions --disable-extensions-except="C:\Users\omnic\AppData\Local\Temp\scoped_dir34976_26336\internal" --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12440 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir=c:/work/saf3.0/temp --verbose
+[1526298928.913][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1526298929.930][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)",
+      "userDataDir": "c:/work/saf3.0/temp"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1526298936.986][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298936.986][INFO]: RESPONSE SetTimeout
+[1526298936.989][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "script"
+}
+[1526298936.989][INFO]: RESPONSE SetTimeout
+[1526298936.990][INFO]: COMMAND GetWindow {
+
+}
+[1526298936.990][INFO]: RESPONSE GetWindow "CDwindow-C1E0EB1F84106CCA53A1FF3BC56A9E7D"
+[1526298937.005][INFO]: COMMAND GetWindows {
+
+}
+[1526298937.005][INFO]: RESPONSE GetWindows [ "CDwindow-C1E0EB1F84106CCA53A1FF3BC56A9E7D" ]
+[1526298937.239][INFO]: COMMAND Navigate {
+   "url": "http://www.newtours.demoaut.com"
+}
+[1526298937.242][INFO]: Waiting for pending navigations...
+[1526298937.244][INFO]: Done waiting for pending navigations. Status: ok
+[1526298937.622][INFO]: Waiting for pending navigations...
+[1526298938.048][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.049][INFO]: RESPONSE Navigate
+[1526298938.052][INFO]: COMMAND GetUrl {
+
+}
+[1526298938.052][INFO]: Waiting for pending navigations...
+[1526298938.053][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.056][INFO]: Waiting for pending navigations...
+[1526298938.058][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.058][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298938.060][INFO]: COMMAND GetUrl {
+
+}
+[1526298938.060][INFO]: Waiting for pending navigations...
+[1526298938.061][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.063][INFO]: Waiting for pending navigations...
+[1526298938.063][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.063][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298938.072][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1526298938.072][INFO]: Waiting for pending navigations...
+[1526298938.073][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.075][INFO]: Waiting for pending navigations...
+[1526298938.076][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.076][INFO]: RESPONSE ExecuteScript "complete"
+[1526298938.080][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1526298938.080][INFO]: Waiting for pending navigations...
+[1526298938.081][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.083][INFO]: Waiting for pending navigations...
+[1526298938.084][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.084][INFO]: RESPONSE ExecuteScript "complete"
+[1526298938.090][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='login']"
+}
+[1526298938.090][INFO]: Waiting for pending navigations...
+[1526298938.091][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.104][INFO]: Waiting for pending navigations...
+[1526298938.105][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.105][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-1"
+}
+[1526298938.109][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='login']"
+}
+[1526298938.109][INFO]: Waiting for pending navigations...
+[1526298938.110][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.115][INFO]: Waiting for pending navigations...
+[1526298938.116][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.116][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-1"
+}
+[1526298938.121][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-1"
+}
+[1526298938.121][INFO]: Waiting for pending navigations...
+[1526298938.122][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.132][INFO]: Waiting for pending navigations...
+[1526298938.133][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.133][INFO]: RESPONSE IsElementDisplayed true
+[1526298938.137][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-1"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298938.137][INFO]: Waiting for pending navigations...
+[1526298938.138][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.141][INFO]: Waiting for pending navigations...
+[1526298938.142][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.142][INFO]: RESPONSE ExecuteScript
+[1526298938.145][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-1"
+}
+[1526298938.145][INFO]: Waiting for pending navigations...
+[1526298938.146][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.154][INFO]: Waiting for pending navigations...
+[1526298938.155][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.155][INFO]: RESPONSE IsElementDisplayed true
+[1526298938.159][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-1"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298938.159][INFO]: Waiting for pending navigations...
+[1526298938.160][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.163][INFO]: Waiting for pending navigations...
+[1526298938.165][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.165][INFO]: RESPONSE ExecuteScript
+[1526298938.167][INFO]: COMMAND GetUrl {
+
+}
+[1526298938.167][INFO]: Waiting for pending navigations...
+[1526298938.168][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.170][INFO]: Waiting for pending navigations...
+[1526298938.171][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.171][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298938.179][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298938.179][INFO]: RESPONSE SetTimeout
+[1526298938.182][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298938.182][INFO]: Waiting for pending navigations...
+[1526298938.183][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.198][INFO]: Waiting for pending navigations...
+[1526298938.199][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.199][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298938.715][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298938.715][INFO]: Waiting for pending navigations...
+[1526298938.717][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.723][INFO]: Waiting for pending navigations...
+[1526298938.724][INFO]: Done waiting for pending navigations. Status: ok
+[1526298938.724][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298939.228][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298939.228][INFO]: Waiting for pending navigations...
+[1526298939.230][INFO]: Done waiting for pending navigations. Status: ok
+[1526298939.236][INFO]: Waiting for pending navigations...
+[1526298939.237][INFO]: Done waiting for pending navigations. Status: ok
+[1526298939.237][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298939.740][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298939.740][INFO]: Waiting for pending navigations...
+[1526298939.742][INFO]: Done waiting for pending navigations. Status: ok
+[1526298939.747][INFO]: Waiting for pending navigations...
+[1526298939.748][INFO]: Done waiting for pending navigations. Status: ok
+[1526298939.748][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298940.252][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298940.252][INFO]: Waiting for pending navigations...
+[1526298940.253][INFO]: Done waiting for pending navigations. Status: ok
+[1526298940.259][INFO]: Waiting for pending navigations...
+[1526298940.260][INFO]: Done waiting for pending navigations. Status: ok
+[1526298940.260][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298940.765][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298940.765][INFO]: Waiting for pending navigations...
+[1526298940.767][INFO]: Done waiting for pending navigations. Status: ok
+[1526298940.778][INFO]: Waiting for pending navigations...
+[1526298940.780][INFO]: Done waiting for pending navigations. Status: ok
+[1526298940.780][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298941.285][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298941.285][INFO]: Waiting for pending navigations...
+[1526298941.286][INFO]: Done waiting for pending navigations. Status: ok
+[1526298941.292][INFO]: Waiting for pending navigations...
+[1526298941.293][INFO]: Done waiting for pending navigations. Status: ok
+[1526298941.293][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298941.796][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298941.796][INFO]: Waiting for pending navigations...
+[1526298941.797][INFO]: Done waiting for pending navigations. Status: ok
+[1526298941.804][INFO]: Waiting for pending navigations...
+[1526298941.805][INFO]: Done waiting for pending navigations. Status: ok
+[1526298941.805][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298942.309][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298942.309][INFO]: Waiting for pending navigations...
+[1526298942.310][INFO]: Done waiting for pending navigations. Status: ok
+[1526298942.315][INFO]: Waiting for pending navigations...
+[1526298942.315][INFO]: Done waiting for pending navigations. Status: ok
+[1526298942.315][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298942.819][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298942.819][INFO]: Waiting for pending navigations...
+[1526298942.822][INFO]: Done waiting for pending navigations. Status: ok
+[1526298942.835][INFO]: Waiting for pending navigations...
+[1526298942.837][INFO]: Done waiting for pending navigations. Status: ok
+[1526298942.837][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298943.340][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298943.340][INFO]: Waiting for pending navigations...
+[1526298943.342][INFO]: Done waiting for pending navigations. Status: ok
+[1526298943.347][INFO]: Waiting for pending navigations...
+[1526298943.348][INFO]: Done waiting for pending navigations. Status: ok
+[1526298943.348][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298943.852][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298943.852][INFO]: Waiting for pending navigations...
+[1526298943.854][INFO]: Done waiting for pending navigations. Status: ok
+[1526298943.860][INFO]: Waiting for pending navigations...
+[1526298943.861][INFO]: Done waiting for pending navigations. Status: ok
+[1526298943.861][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298944.364][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298944.364][INFO]: Waiting for pending navigations...
+[1526298944.366][INFO]: Done waiting for pending navigations. Status: ok
+[1526298944.373][INFO]: Waiting for pending navigations...
+[1526298944.375][INFO]: Done waiting for pending navigations. Status: ok
+[1526298944.375][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298944.880][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298944.880][INFO]: Waiting for pending navigations...
+[1526298944.882][INFO]: Done waiting for pending navigations. Status: ok
+[1526298944.892][INFO]: Waiting for pending navigations...
+[1526298944.894][INFO]: Done waiting for pending navigations. Status: ok
+[1526298944.894][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298945.400][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298945.400][INFO]: Waiting for pending navigations...
+[1526298945.402][INFO]: Done waiting for pending navigations. Status: ok
+[1526298945.408][INFO]: Waiting for pending navigations...
+[1526298945.409][INFO]: Done waiting for pending navigations. Status: ok
+[1526298945.409][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298945.912][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298945.912][INFO]: Waiting for pending navigations...
+[1526298945.913][INFO]: Done waiting for pending navigations. Status: ok
+[1526298945.920][INFO]: Waiting for pending navigations...
+[1526298945.920][INFO]: Done waiting for pending navigations. Status: ok
+[1526298945.920][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298946.424][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298946.424][INFO]: Waiting for pending navigations...
+[1526298946.426][INFO]: Done waiting for pending navigations. Status: ok
+[1526298946.432][INFO]: Waiting for pending navigations...
+[1526298946.433][INFO]: Done waiting for pending navigations. Status: ok
+[1526298946.433][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298946.937][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298946.937][INFO]: Waiting for pending navigations...
+[1526298946.939][INFO]: Done waiting for pending navigations. Status: ok
+[1526298946.945][INFO]: Waiting for pending navigations...
+[1526298946.946][INFO]: Done waiting for pending navigations. Status: ok
+[1526298946.946][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298947.449][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298947.449][INFO]: Waiting for pending navigations...
+[1526298947.450][INFO]: Done waiting for pending navigations. Status: ok
+[1526298947.456][INFO]: Waiting for pending navigations...
+[1526298947.457][INFO]: Done waiting for pending navigations. Status: ok
+[1526298947.457][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298947.961][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298947.961][INFO]: Waiting for pending navigations...
+[1526298947.962][INFO]: Done waiting for pending navigations. Status: ok
+[1526298947.967][INFO]: Waiting for pending navigations...
+[1526298947.969][INFO]: Done waiting for pending navigations. Status: ok
+[1526298947.969][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298948.471][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298948.471][INFO]: Waiting for pending navigations...
+[1526298948.473][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.478][INFO]: Waiting for pending navigations...
+[1526298948.479][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.479][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//*[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=66.0.3359.170)
+[1526298948.483][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298948.483][INFO]: RESPONSE SetTimeout
+[1526298948.486][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='userName']"
+}
+[1526298948.486][INFO]: Waiting for pending navigations...
+[1526298948.487][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.498][INFO]: Waiting for pending navigations...
+[1526298948.499][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.499][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-2"
+}
+[1526298948.502][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='userName']"
+}
+[1526298948.502][INFO]: Waiting for pending navigations...
+[1526298948.503][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.510][INFO]: Waiting for pending navigations...
+[1526298948.511][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.511][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-2"
+}
+[1526298948.513][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-2"
+}
+[1526298948.513][INFO]: Waiting for pending navigations...
+[1526298948.514][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.524][INFO]: Waiting for pending navigations...
+[1526298948.526][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.526][INFO]: RESPONSE IsElementDisplayed true
+[1526298948.529][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-2"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298948.529][INFO]: Waiting for pending navigations...
+[1526298948.531][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.533][INFO]: Waiting for pending navigations...
+[1526298948.534][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.534][INFO]: RESPONSE ExecuteScript
+[1526298948.536][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-2"
+}
+[1526298948.536][INFO]: Waiting for pending navigations...
+[1526298948.537][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.542][INFO]: Waiting for pending navigations...
+[1526298948.543][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.543][INFO]: RESPONSE IsElementDisplayed true
+[1526298948.546][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-2"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298948.546][INFO]: Waiting for pending navigations...
+[1526298948.547][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.549][INFO]: Waiting for pending navigations...
+[1526298948.551][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.551][INFO]: RESPONSE ExecuteScript
+[1526298948.552][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.552][INFO]: Waiting for pending navigations...
+[1526298948.553][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.555][INFO]: Waiting for pending navigations...
+[1526298948.556][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.556][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.560][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298948.561][INFO]: RESPONSE SetTimeout
+[1526298948.565][INFO]: COMMAND ClickElement {
+   "id": "0.38501434069351026-2"
+}
+[1526298948.565][INFO]: Waiting for pending navigations...
+[1526298948.566][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.605][INFO]: Waiting for pending navigations...
+[1526298948.606][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.606][INFO]: RESPONSE ClickElement
+[1526298948.608][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.608][INFO]: Waiting for pending navigations...
+[1526298948.609][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.611][INFO]: Waiting for pending navigations...
+[1526298948.612][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.612][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.615][INFO]: COMMAND ClearElement {
+   "id": "0.38501434069351026-2"
+}
+[1526298948.615][INFO]: Waiting for pending navigations...
+[1526298948.616][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.634][INFO]: Waiting for pending navigations...
+[1526298948.635][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.635][INFO]: RESPONSE ClearElement
+[1526298948.637][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.637][INFO]: Waiting for pending navigations...
+[1526298948.638][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.640][INFO]: Waiting for pending navigations...
+[1526298948.641][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.641][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.645][INFO]: COMMAND TypeElement {
+   "id": "0.38501434069351026-2",
+   "value": [ "mercury" ]
+}
+[1526298948.645][INFO]: Waiting for pending navigations...
+[1526298948.646][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.718][INFO]: Waiting for pending navigations...
+[1526298948.719][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.719][INFO]: RESPONSE TypeElement
+[1526298948.721][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.721][INFO]: Waiting for pending navigations...
+[1526298948.722][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.724][INFO]: Waiting for pending navigations...
+[1526298948.725][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.725][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.729][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='password']"
+}
+[1526298948.729][INFO]: Waiting for pending navigations...
+[1526298948.730][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.741][INFO]: Waiting for pending navigations...
+[1526298948.742][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.742][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-3"
+}
+[1526298948.745][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='password']"
+}
+[1526298948.745][INFO]: Waiting for pending navigations...
+[1526298948.746][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.751][INFO]: Waiting for pending navigations...
+[1526298948.752][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.752][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-3"
+}
+[1526298948.754][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-3"
+}
+[1526298948.754][INFO]: Waiting for pending navigations...
+[1526298948.755][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.765][INFO]: Waiting for pending navigations...
+[1526298948.766][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.766][INFO]: RESPONSE IsElementDisplayed true
+[1526298948.769][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-3"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298948.769][INFO]: Waiting for pending navigations...
+[1526298948.770][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.773][INFO]: Waiting for pending navigations...
+[1526298948.774][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.774][INFO]: RESPONSE ExecuteScript
+[1526298948.776][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-3"
+}
+[1526298948.776][INFO]: Waiting for pending navigations...
+[1526298948.777][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.784][INFO]: Waiting for pending navigations...
+[1526298948.786][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.786][INFO]: RESPONSE IsElementDisplayed true
+[1526298948.789][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-3"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298948.789][INFO]: Waiting for pending navigations...
+[1526298948.791][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.793][INFO]: Waiting for pending navigations...
+[1526298948.795][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.795][INFO]: RESPONSE ExecuteScript
+[1526298948.797][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.797][INFO]: Waiting for pending navigations...
+[1526298948.798][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.801][INFO]: Waiting for pending navigations...
+[1526298948.803][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.803][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.807][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298948.807][INFO]: RESPONSE SetTimeout
+[1526298948.811][INFO]: COMMAND ClickElement {
+   "id": "0.38501434069351026-3"
+}
+[1526298948.811][INFO]: Waiting for pending navigations...
+[1526298948.813][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.852][INFO]: Waiting for pending navigations...
+[1526298948.853][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.853][INFO]: RESPONSE ClickElement
+[1526298948.855][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.855][INFO]: Waiting for pending navigations...
+[1526298948.856][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.857][INFO]: Waiting for pending navigations...
+[1526298948.858][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.858][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.860][INFO]: COMMAND ClearElement {
+   "id": "0.38501434069351026-3"
+}
+[1526298948.860][INFO]: Waiting for pending navigations...
+[1526298948.861][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.874][INFO]: Waiting for pending navigations...
+[1526298948.875][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.875][INFO]: RESPONSE ClearElement
+[1526298948.876][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.876][INFO]: Waiting for pending navigations...
+[1526298948.877][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.879][INFO]: Waiting for pending navigations...
+[1526298948.880][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.880][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.884][INFO]: COMMAND TypeElement {
+   "id": "0.38501434069351026-3",
+   "value": [ "mercury" ]
+}
+[1526298948.884][INFO]: Waiting for pending navigations...
+[1526298948.886][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.926][INFO]: Waiting for pending navigations...
+[1526298948.927][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.928][INFO]: RESPONSE TypeElement
+[1526298948.930][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.930][INFO]: Waiting for pending navigations...
+[1526298948.931][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.933][INFO]: Waiting for pending navigations...
+[1526298948.934][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.934][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.938][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[1526298948.938][INFO]: Waiting for pending navigations...
+[1526298948.939][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.939][INFO]: Waiting for pending navigations...
+[1526298948.940][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.940][INFO]: RESPONSE SwitchToFrame
+[1526298948.944][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='login']"
+}
+[1526298948.944][INFO]: Waiting for pending navigations...
+[1526298948.945][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.950][INFO]: Waiting for pending navigations...
+[1526298948.951][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.951][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-1"
+}
+[1526298948.954][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='login']"
+}
+[1526298948.954][INFO]: Waiting for pending navigations...
+[1526298948.955][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.959][INFO]: Waiting for pending navigations...
+[1526298948.960][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.960][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.38501434069351026-1"
+}
+[1526298948.961][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-1"
+}
+[1526298948.962][INFO]: Waiting for pending navigations...
+[1526298948.962][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.967][INFO]: Waiting for pending navigations...
+[1526298948.968][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.968][INFO]: RESPONSE IsElementDisplayed true
+[1526298948.971][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-1"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298948.971][INFO]: Waiting for pending navigations...
+[1526298948.972][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.973][INFO]: Waiting for pending navigations...
+[1526298948.974][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.974][INFO]: RESPONSE ExecuteScript
+[1526298948.976][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.38501434069351026-1"
+}
+[1526298948.976][INFO]: Waiting for pending navigations...
+[1526298948.977][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.981][INFO]: Waiting for pending navigations...
+[1526298948.983][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.983][INFO]: RESPONSE IsElementDisplayed true
+[1526298948.987][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.38501434069351026-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.38501434069351026-1"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298948.987][INFO]: Waiting for pending navigations...
+[1526298948.988][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.989][INFO]: Waiting for pending navigations...
+[1526298948.991][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.991][INFO]: RESPONSE ExecuteScript
+[1526298948.992][INFO]: COMMAND GetUrl {
+
+}
+[1526298948.992][INFO]: Waiting for pending navigations...
+[1526298948.993][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.995][INFO]: Waiting for pending navigations...
+[1526298948.996][INFO]: Done waiting for pending navigations. Status: ok
+[1526298948.996][INFO]: RESPONSE GetUrl "http://www.newtours.demoaut.com/"
+[1526298948.999][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298948.999][INFO]: RESPONSE SetTimeout
+[1526298949.002][INFO]: COMMAND ClickElement {
+   "id": "0.38501434069351026-1"
+}
+[1526298949.002][INFO]: Waiting for pending navigations...
+[1526298949.003][INFO]: Done waiting for pending navigations. Status: ok
+[1526298949.055][INFO]: Waiting for pending navigations...
+[1526298952.240][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.241][INFO]: RESPONSE ClickElement
+[1526298952.242][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.242][INFO]: Waiting for pending navigations...
+[1526298952.243][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.245][INFO]: Waiting for pending navigations...
+[1526298952.246][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.246][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.248][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.248][INFO]: Waiting for pending navigations...
+[1526298952.251][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.253][INFO]: Waiting for pending navigations...
+[1526298952.254][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.254][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.259][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298952.259][INFO]: Waiting for pending navigations...
+[1526298952.260][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.266][INFO]: Waiting for pending navigations...
+[1526298952.268][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.268][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-1"
+}
+[1526298952.271][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_flightfinder.gif']"
+}
+[1526298952.271][INFO]: Waiting for pending navigations...
+[1526298952.273][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.277][INFO]: Waiting for pending navigations...
+[1526298952.278][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.278][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-1"
+}
+[1526298952.279][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-1"
+}
+[1526298952.279][INFO]: Waiting for pending navigations...
+[1526298952.281][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.293][INFO]: Waiting for pending navigations...
+[1526298952.294][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.294][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.298][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-1"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.298][INFO]: Waiting for pending navigations...
+[1526298952.299][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.302][INFO]: Waiting for pending navigations...
+[1526298952.302][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.302][INFO]: RESPONSE ExecuteScript
+[1526298952.304][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-1"
+}
+[1526298952.304][INFO]: Waiting for pending navigations...
+[1526298952.305][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.312][INFO]: Waiting for pending navigations...
+[1526298952.313][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.313][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.318][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-1"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.318][INFO]: Waiting for pending navigations...
+[1526298952.319][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.321][INFO]: Waiting for pending navigations...
+[1526298952.323][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.324][INFO]: RESPONSE ExecuteScript
+[1526298952.325][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.326][INFO]: Waiting for pending navigations...
+[1526298952.327][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.329][INFO]: Waiting for pending navigations...
+[1526298952.330][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.330][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.336][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298952.336][INFO]: RESPONSE SetTimeout
+[1526298952.338][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@type='radio' and @value='oneway']"
+}
+[1526298952.339][INFO]: Waiting for pending navigations...
+[1526298952.340][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.352][INFO]: Waiting for pending navigations...
+[1526298952.353][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.353][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-2"
+}
+[1526298952.355][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@type='radio' and @value='oneway']"
+}
+[1526298952.355][INFO]: Waiting for pending navigations...
+[1526298952.357][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.361][INFO]: Waiting for pending navigations...
+[1526298952.362][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.362][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-2"
+}
+[1526298952.363][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-2"
+}
+[1526298952.363][INFO]: Waiting for pending navigations...
+[1526298952.364][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.375][INFO]: Waiting for pending navigations...
+[1526298952.376][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.376][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.380][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-2"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.380][INFO]: Waiting for pending navigations...
+[1526298952.381][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.383][INFO]: Waiting for pending navigations...
+[1526298952.384][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.384][INFO]: RESPONSE ExecuteScript
+[1526298952.386][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-2"
+}
+[1526298952.386][INFO]: Waiting for pending navigations...
+[1526298952.387][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.393][INFO]: Waiting for pending navigations...
+[1526298952.394][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.394][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.397][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-2"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.397][INFO]: Waiting for pending navigations...
+[1526298952.398][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.402][INFO]: Waiting for pending navigations...
+[1526298952.402][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.402][INFO]: RESPONSE ExecuteScript
+[1526298952.404][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.404][INFO]: Waiting for pending navigations...
+[1526298952.406][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.407][INFO]: Waiting for pending navigations...
+[1526298952.409][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.409][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.412][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298952.412][INFO]: RESPONSE SetTimeout
+[1526298952.416][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-2"
+}
+[1526298952.416][INFO]: Waiting for pending navigations...
+[1526298952.418][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.456][INFO]: Waiting for pending navigations...
+[1526298952.457][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.457][INFO]: RESPONSE ClickElement
+[1526298952.458][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.459][INFO]: Waiting for pending navigations...
+[1526298952.460][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.461][INFO]: Waiting for pending navigations...
+[1526298952.462][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.462][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.468][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='passCount']"
+}
+[1526298952.468][INFO]: Waiting for pending navigations...
+[1526298952.469][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.479][INFO]: Waiting for pending navigations...
+[1526298952.481][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.481][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-3"
+}
+[1526298952.485][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='passCount']"
+}
+[1526298952.485][INFO]: Waiting for pending navigations...
+[1526298952.487][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.493][INFO]: Waiting for pending navigations...
+[1526298952.494][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.494][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-3"
+}
+[1526298952.495][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-3"
+}
+[1526298952.495][INFO]: Waiting for pending navigations...
+[1526298952.496][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.508][INFO]: Waiting for pending navigations...
+[1526298952.509][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.509][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.512][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-3"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.512][INFO]: Waiting for pending navigations...
+[1526298952.513][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.516][INFO]: Waiting for pending navigations...
+[1526298952.517][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.517][INFO]: RESPONSE ExecuteScript
+[1526298952.519][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-3"
+}
+[1526298952.519][INFO]: Waiting for pending navigations...
+[1526298952.520][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.524][INFO]: Waiting for pending navigations...
+[1526298952.525][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.525][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.529][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-3"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.529][INFO]: Waiting for pending navigations...
+[1526298952.530][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.532][INFO]: Waiting for pending navigations...
+[1526298952.534][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.534][INFO]: RESPONSE ExecuteScript
+[1526298952.536][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.536][INFO]: Waiting for pending navigations...
+[1526298952.537][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.539][INFO]: Waiting for pending navigations...
+[1526298952.540][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.540][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.543][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298952.544][INFO]: RESPONSE SetTimeout
+[1526298952.545][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-3"
+}
+[1526298952.545][INFO]: Waiting for pending navigations...
+[1526298952.546][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.548][INFO]: Waiting for pending navigations...
+[1526298952.550][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.550][INFO]: RESPONSE GetElementTagName "select"
+[1526298952.551][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-3",
+   "name": "multiple"
+}
+[1526298952.551][INFO]: Waiting for pending navigations...
+[1526298952.552][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.555][INFO]: Waiting for pending navigations...
+[1526298952.556][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.556][INFO]: RESPONSE GetElementAttribute null
+[1526298952.558][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-3",
+   "using": "xpath",
+   "value": ".//option[@value = \"3\"]"
+}
+[1526298952.559][INFO]: Waiting for pending navigations...
+[1526298952.559][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.570][INFO]: Waiting for pending navigations...
+[1526298952.571][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.571][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-4"
+} ]
+[1526298952.575][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"3\"]"
+}
+[1526298952.575][INFO]: Waiting for pending navigations...
+[1526298952.576][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.596][INFO]: Waiting for pending navigations...
+[1526298952.597][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.597][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-4"
+}
+[1526298952.599][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-4"
+}
+[1526298952.599][INFO]: Waiting for pending navigations...
+[1526298952.601][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.618][INFO]: Waiting for pending navigations...
+[1526298952.619][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.619][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.622][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-4",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-4"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.622][INFO]: Waiting for pending navigations...
+[1526298952.623][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.626][INFO]: Waiting for pending navigations...
+[1526298952.626][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.626][INFO]: RESPONSE ExecuteScript
+[1526298952.628][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-4"
+}
+[1526298952.628][INFO]: Waiting for pending navigations...
+[1526298952.629][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.636][INFO]: Waiting for pending navigations...
+[1526298952.637][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.637][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.639][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-4",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-4"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.639][INFO]: Waiting for pending navigations...
+[1526298952.640][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.643][INFO]: Waiting for pending navigations...
+[1526298952.644][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.644][INFO]: RESPONSE ExecuteScript
+[1526298952.646][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.646][INFO]: Waiting for pending navigations...
+[1526298952.647][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.649][INFO]: Waiting for pending navigations...
+[1526298952.650][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.650][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.652][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-4"
+}
+[1526298952.652][INFO]: Waiting for pending navigations...
+[1526298952.653][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.663][INFO]: Waiting for pending navigations...
+[1526298952.664][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.664][INFO]: RESPONSE IsElementSelected false
+[1526298952.668][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-4"
+}
+[1526298952.668][INFO]: Waiting for pending navigations...
+[1526298952.669][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.708][INFO]: Waiting for pending navigations...
+[1526298952.709][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.709][INFO]: RESPONSE ClickElement
+[1526298952.711][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.711][INFO]: Waiting for pending navigations...
+[1526298952.711][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.713][INFO]: Waiting for pending navigations...
+[1526298952.714][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.714][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.717][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='fromPort']"
+}
+[1526298952.717][INFO]: Waiting for pending navigations...
+[1526298952.718][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.734][INFO]: Waiting for pending navigations...
+[1526298952.735][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.735][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-5"
+}
+[1526298952.738][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='fromPort']"
+}
+[1526298952.738][INFO]: Waiting for pending navigations...
+[1526298952.739][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.745][INFO]: Waiting for pending navigations...
+[1526298952.745][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.745][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-5"
+}
+[1526298952.747][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-5"
+}
+[1526298952.747][INFO]: Waiting for pending navigations...
+[1526298952.748][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.761][INFO]: Waiting for pending navigations...
+[1526298952.762][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.762][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.765][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-5",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-5"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.765][INFO]: Waiting for pending navigations...
+[1526298952.766][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.769][INFO]: Waiting for pending navigations...
+[1526298952.769][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.769][INFO]: RESPONSE ExecuteScript
+[1526298952.771][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-5"
+}
+[1526298952.771][INFO]: Waiting for pending navigations...
+[1526298952.771][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.777][INFO]: Waiting for pending navigations...
+[1526298952.778][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.778][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.779][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-5",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-5"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.779][INFO]: Waiting for pending navigations...
+[1526298952.780][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.782][INFO]: Waiting for pending navigations...
+[1526298952.784][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.784][INFO]: RESPONSE ExecuteScript
+[1526298952.786][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.786][INFO]: Waiting for pending navigations...
+[1526298952.787][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.790][INFO]: Waiting for pending navigations...
+[1526298952.791][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.791][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.794][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298952.794][INFO]: RESPONSE SetTimeout
+[1526298952.796][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-5"
+}
+[1526298952.796][INFO]: Waiting for pending navigations...
+[1526298952.797][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.800][INFO]: Waiting for pending navigations...
+[1526298952.801][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.801][INFO]: RESPONSE GetElementTagName "select"
+[1526298952.803][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-5",
+   "name": "multiple"
+}
+[1526298952.803][INFO]: Waiting for pending navigations...
+[1526298952.804][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.809][INFO]: Waiting for pending navigations...
+[1526298952.809][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.810][INFO]: RESPONSE GetElementAttribute null
+[1526298952.813][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-5",
+   "using": "xpath",
+   "value": ".//option[@value = \"Zurich\"]"
+}
+[1526298952.814][INFO]: Waiting for pending navigations...
+[1526298952.815][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.827][INFO]: Waiting for pending navigations...
+[1526298952.828][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.828][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-6"
+} ]
+[1526298952.832][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"Zurich\"]"
+}
+[1526298952.832][INFO]: Waiting for pending navigations...
+[1526298952.834][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.844][INFO]: Waiting for pending navigations...
+[1526298952.845][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.845][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-6"
+}
+[1526298952.846][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-6"
+}
+[1526298952.846][INFO]: Waiting for pending navigations...
+[1526298952.847][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.861][INFO]: Waiting for pending navigations...
+[1526298952.862][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.862][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.865][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-6",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-6"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.865][INFO]: Waiting for pending navigations...
+[1526298952.866][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.869][INFO]: Waiting for pending navigations...
+[1526298952.869][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.869][INFO]: RESPONSE ExecuteScript
+[1526298952.871][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-6"
+}
+[1526298952.871][INFO]: Waiting for pending navigations...
+[1526298952.872][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.877][INFO]: Waiting for pending navigations...
+[1526298952.878][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.878][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.881][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-6",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-6"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.882][INFO]: Waiting for pending navigations...
+[1526298952.882][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.885][INFO]: Waiting for pending navigations...
+[1526298952.886][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.886][INFO]: RESPONSE ExecuteScript
+[1526298952.887][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.887][INFO]: Waiting for pending navigations...
+[1526298952.888][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.890][INFO]: Waiting for pending navigations...
+[1526298952.891][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.891][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.892][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-6"
+}
+[1526298952.892][INFO]: Waiting for pending navigations...
+[1526298952.893][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.902][INFO]: Waiting for pending navigations...
+[1526298952.903][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.903][INFO]: RESPONSE IsElementSelected false
+[1526298952.906][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-6"
+}
+[1526298952.906][INFO]: Waiting for pending navigations...
+[1526298952.907][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.930][INFO]: Waiting for pending navigations...
+[1526298952.931][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.931][INFO]: RESPONSE ClickElement
+[1526298952.932][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.932][INFO]: Waiting for pending navigations...
+[1526298952.933][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.934][INFO]: Waiting for pending navigations...
+[1526298952.934][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.934][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298952.936][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='fromMonth']"
+}
+[1526298952.936][INFO]: Waiting for pending navigations...
+[1526298952.937][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.946][INFO]: Waiting for pending navigations...
+[1526298952.947][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.947][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-7"
+}
+[1526298952.952][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='fromMonth']"
+}
+[1526298952.952][INFO]: Waiting for pending navigations...
+[1526298952.953][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.957][INFO]: Waiting for pending navigations...
+[1526298952.958][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.958][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-7"
+}
+[1526298952.959][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-7"
+}
+[1526298952.959][INFO]: Waiting for pending navigations...
+[1526298952.960][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.970][INFO]: Waiting for pending navigations...
+[1526298952.971][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.971][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.974][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-7",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-7"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298952.974][INFO]: Waiting for pending navigations...
+[1526298952.975][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.977][INFO]: Waiting for pending navigations...
+[1526298952.978][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.978][INFO]: RESPONSE ExecuteScript
+[1526298952.979][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-7"
+}
+[1526298952.979][INFO]: Waiting for pending navigations...
+[1526298952.980][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.985][INFO]: Waiting for pending navigations...
+[1526298952.986][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.986][INFO]: RESPONSE IsElementDisplayed true
+[1526298952.989][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-7",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-7"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298952.989][INFO]: Waiting for pending navigations...
+[1526298952.990][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.992][INFO]: Waiting for pending navigations...
+[1526298952.994][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.994][INFO]: RESPONSE ExecuteScript
+[1526298952.996][INFO]: COMMAND GetUrl {
+
+}
+[1526298952.996][INFO]: Waiting for pending navigations...
+[1526298952.997][INFO]: Done waiting for pending navigations. Status: ok
+[1526298952.999][INFO]: Waiting for pending navigations...
+[1526298953.000][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.000][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.002][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298953.002][INFO]: RESPONSE SetTimeout
+[1526298953.004][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-7"
+}
+[1526298953.004][INFO]: Waiting for pending navigations...
+[1526298953.005][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.007][INFO]: Waiting for pending navigations...
+[1526298953.008][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.008][INFO]: RESPONSE GetElementTagName "select"
+[1526298953.009][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-7",
+   "name": "multiple"
+}
+[1526298953.009][INFO]: Waiting for pending navigations...
+[1526298953.010][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.013][INFO]: Waiting for pending navigations...
+[1526298953.014][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.014][INFO]: RESPONSE GetElementAttribute null
+[1526298953.017][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-7",
+   "using": "xpath",
+   "value": ".//option[@value = \"August\"]"
+}
+[1526298953.017][INFO]: Waiting for pending navigations...
+[1526298953.018][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.027][INFO]: Waiting for pending navigations...
+[1526298953.031][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.031][INFO]: RESPONSE FindChildElements [  ]
+[1526298953.034][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"August\"]"
+}
+[1526298953.034][INFO]: Waiting for pending navigations...
+[1526298953.035][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.047][INFO]: Waiting for pending navigations...
+[1526298953.047][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.047][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//option[@value = "August"]"}
+  (Session info: chrome=66.0.3359.170)
+[1526298953.052][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-7",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"August\"]"
+}
+[1526298953.052][INFO]: Waiting for pending navigations...
+[1526298953.053][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.062][INFO]: Waiting for pending navigations...
+[1526298953.063][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.063][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-8"
+} ]
+[1526298953.067][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"August\"]"
+}
+[1526298953.067][INFO]: Waiting for pending navigations...
+[1526298953.068][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.081][INFO]: Waiting for pending navigations...
+[1526298953.082][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.082][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-8"
+}
+[1526298953.083][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-8"
+}
+[1526298953.083][INFO]: Waiting for pending navigations...
+[1526298953.084][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.095][INFO]: Waiting for pending navigations...
+[1526298953.096][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.096][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.098][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-8",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-8"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.098][INFO]: Waiting for pending navigations...
+[1526298953.099][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.102][INFO]: Waiting for pending navigations...
+[1526298953.103][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.103][INFO]: RESPONSE ExecuteScript
+[1526298953.104][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-8"
+}
+[1526298953.104][INFO]: Waiting for pending navigations...
+[1526298953.105][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.110][INFO]: Waiting for pending navigations...
+[1526298953.111][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.111][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.113][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-8",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-8"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.114][INFO]: Waiting for pending navigations...
+[1526298953.115][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.117][INFO]: Waiting for pending navigations...
+[1526298953.118][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.118][INFO]: RESPONSE ExecuteScript
+[1526298953.119][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.119][INFO]: Waiting for pending navigations...
+[1526298953.121][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.122][INFO]: Waiting for pending navigations...
+[1526298953.123][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.123][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.125][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-8"
+}
+[1526298953.125][INFO]: Waiting for pending navigations...
+[1526298953.126][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.134][INFO]: Waiting for pending navigations...
+[1526298953.137][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.137][INFO]: RESPONSE IsElementSelected false
+[1526298953.140][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-8"
+}
+[1526298953.140][INFO]: Waiting for pending navigations...
+[1526298953.141][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.163][INFO]: Waiting for pending navigations...
+[1526298953.165][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.165][INFO]: RESPONSE ClickElement
+[1526298953.166][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.166][INFO]: Waiting for pending navigations...
+[1526298953.167][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.169][INFO]: Waiting for pending navigations...
+[1526298953.170][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.170][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.173][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='fromDay']"
+}
+[1526298953.173][INFO]: Waiting for pending navigations...
+[1526298953.174][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.184][INFO]: Waiting for pending navigations...
+[1526298953.185][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.185][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-9"
+}
+[1526298953.188][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='fromDay']"
+}
+[1526298953.188][INFO]: Waiting for pending navigations...
+[1526298953.189][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.194][INFO]: Waiting for pending navigations...
+[1526298953.195][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.195][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-9"
+}
+[1526298953.197][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-9"
+}
+[1526298953.197][INFO]: Waiting for pending navigations...
+[1526298953.198][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.210][INFO]: Waiting for pending navigations...
+[1526298953.211][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.211][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.214][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-9",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-9"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.214][INFO]: Waiting for pending navigations...
+[1526298953.215][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.218][INFO]: Waiting for pending navigations...
+[1526298953.219][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.219][INFO]: RESPONSE ExecuteScript
+[1526298953.220][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-9"
+}
+[1526298953.220][INFO]: Waiting for pending navigations...
+[1526298953.221][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.226][INFO]: Waiting for pending navigations...
+[1526298953.227][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.227][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.230][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-9",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-9"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.230][INFO]: Waiting for pending navigations...
+[1526298953.231][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.233][INFO]: Waiting for pending navigations...
+[1526298953.235][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.235][INFO]: RESPONSE ExecuteScript
+[1526298953.236][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.236][INFO]: Waiting for pending navigations...
+[1526298953.237][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.239][INFO]: Waiting for pending navigations...
+[1526298953.240][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.240][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.242][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298953.242][INFO]: RESPONSE SetTimeout
+[1526298953.243][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-9"
+}
+[1526298953.243][INFO]: Waiting for pending navigations...
+[1526298953.244][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.246][INFO]: Waiting for pending navigations...
+[1526298953.247][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.247][INFO]: RESPONSE GetElementTagName "select"
+[1526298953.249][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-9",
+   "name": "multiple"
+}
+[1526298953.249][INFO]: Waiting for pending navigations...
+[1526298953.250][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.253][INFO]: Waiting for pending navigations...
+[1526298953.254][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.254][INFO]: RESPONSE GetElementAttribute null
+[1526298953.255][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-9",
+   "using": "xpath",
+   "value": ".//option[@value = \"23\"]"
+}
+[1526298953.255][INFO]: Waiting for pending navigations...
+[1526298953.256][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.266][INFO]: Waiting for pending navigations...
+[1526298953.267][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.267][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-10"
+} ]
+[1526298953.270][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"23\"]"
+}
+[1526298953.270][INFO]: Waiting for pending navigations...
+[1526298953.272][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.283][INFO]: Waiting for pending navigations...
+[1526298953.284][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.284][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-10"
+}
+[1526298953.285][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-10"
+}
+[1526298953.286][INFO]: Waiting for pending navigations...
+[1526298953.287][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.297][INFO]: Waiting for pending navigations...
+[1526298953.298][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.298][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.301][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-10",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-10"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.301][INFO]: Waiting for pending navigations...
+[1526298953.302][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.304][INFO]: Waiting for pending navigations...
+[1526298953.305][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.305][INFO]: RESPONSE ExecuteScript
+[1526298953.306][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-10"
+}
+[1526298953.306][INFO]: Waiting for pending navigations...
+[1526298953.307][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.312][INFO]: Waiting for pending navigations...
+[1526298953.313][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.313][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.315][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-10",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-10"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.315][INFO]: Waiting for pending navigations...
+[1526298953.316][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.320][INFO]: Waiting for pending navigations...
+[1526298953.321][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.321][INFO]: RESPONSE ExecuteScript
+[1526298953.322][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.323][INFO]: Waiting for pending navigations...
+[1526298953.324][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.325][INFO]: Waiting for pending navigations...
+[1526298953.326][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.326][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.328][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-10"
+}
+[1526298953.328][INFO]: Waiting for pending navigations...
+[1526298953.329][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.341][INFO]: Waiting for pending navigations...
+[1526298953.342][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.342][INFO]: RESPONSE IsElementSelected false
+[1526298953.344][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-10"
+}
+[1526298953.344][INFO]: Waiting for pending navigations...
+[1526298953.345][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.368][INFO]: Waiting for pending navigations...
+[1526298953.369][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.369][INFO]: RESPONSE ClickElement
+[1526298953.371][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.371][INFO]: Waiting for pending navigations...
+[1526298953.372][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.375][INFO]: Waiting for pending navigations...
+[1526298953.376][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.376][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.378][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='toPort']"
+}
+[1526298953.378][INFO]: Waiting for pending navigations...
+[1526298953.379][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.390][INFO]: Waiting for pending navigations...
+[1526298953.391][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.391][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-11"
+}
+[1526298953.394][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='toPort']"
+}
+[1526298953.394][INFO]: Waiting for pending navigations...
+[1526298953.396][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.402][INFO]: Waiting for pending navigations...
+[1526298953.403][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.403][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-11"
+}
+[1526298953.405][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-11"
+}
+[1526298953.405][INFO]: Waiting for pending navigations...
+[1526298953.406][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.416][INFO]: Waiting for pending navigations...
+[1526298953.417][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.417][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.421][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-11",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-11"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.421][INFO]: Waiting for pending navigations...
+[1526298953.422][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.425][INFO]: Waiting for pending navigations...
+[1526298953.426][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.426][INFO]: RESPONSE ExecuteScript
+[1526298953.427][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-11"
+}
+[1526298953.427][INFO]: Waiting for pending navigations...
+[1526298953.428][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.433][INFO]: Waiting for pending navigations...
+[1526298953.437][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.437][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.440][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-11",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-11"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.440][INFO]: Waiting for pending navigations...
+[1526298953.441][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.444][INFO]: Waiting for pending navigations...
+[1526298953.445][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.445][INFO]: RESPONSE ExecuteScript
+[1526298953.447][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.447][INFO]: Waiting for pending navigations...
+[1526298953.448][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.451][INFO]: Waiting for pending navigations...
+[1526298953.452][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.452][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.454][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298953.454][INFO]: RESPONSE SetTimeout
+[1526298953.455][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-11"
+}
+[1526298953.455][INFO]: Waiting for pending navigations...
+[1526298953.456][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.459][INFO]: Waiting for pending navigations...
+[1526298953.460][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.460][INFO]: RESPONSE GetElementTagName "select"
+[1526298953.461][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-11",
+   "name": "multiple"
+}
+[1526298953.461][INFO]: Waiting for pending navigations...
+[1526298953.462][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.465][INFO]: Waiting for pending navigations...
+[1526298953.466][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.466][INFO]: RESPONSE GetElementAttribute null
+[1526298953.469][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-11",
+   "using": "xpath",
+   "value": ".//option[@value = \"Acapulco\"]"
+}
+[1526298953.469][INFO]: Waiting for pending navigations...
+[1526298953.470][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.481][INFO]: Waiting for pending navigations...
+[1526298953.482][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.482][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-12"
+} ]
+[1526298953.485][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"Acapulco\"]"
+}
+[1526298953.485][INFO]: Waiting for pending navigations...
+[1526298953.486][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.497][INFO]: Waiting for pending navigations...
+[1526298953.498][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.498][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-13"
+}
+[1526298953.500][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-13"
+}
+[1526298953.500][INFO]: Waiting for pending navigations...
+[1526298953.501][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.511][INFO]: Waiting for pending navigations...
+[1526298953.512][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.512][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.515][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-13",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-13"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.515][INFO]: Waiting for pending navigations...
+[1526298953.516][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.519][INFO]: Waiting for pending navigations...
+[1526298953.520][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.520][INFO]: RESPONSE ExecuteScript
+[1526298953.522][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-13"
+}
+[1526298953.522][INFO]: Waiting for pending navigations...
+[1526298953.523][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.528][INFO]: Waiting for pending navigations...
+[1526298953.529][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.529][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.532][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-13",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-13"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.532][INFO]: Waiting for pending navigations...
+[1526298953.533][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.535][INFO]: Waiting for pending navigations...
+[1526298953.536][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.536][INFO]: RESPONSE ExecuteScript
+[1526298953.538][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.538][INFO]: Waiting for pending navigations...
+[1526298953.539][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.540][INFO]: Waiting for pending navigations...
+[1526298953.541][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.541][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.543][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-12"
+}
+[1526298953.543][INFO]: Waiting for pending navigations...
+[1526298953.544][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.552][INFO]: Waiting for pending navigations...
+[1526298953.553][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.553][INFO]: RESPONSE IsElementSelected true
+[1526298953.557][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='toMonth']"
+}
+[1526298953.557][INFO]: Waiting for pending navigations...
+[1526298953.558][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.568][INFO]: Waiting for pending navigations...
+[1526298953.569][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.569][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-14"
+}
+[1526298953.571][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='toMonth']"
+}
+[1526298953.571][INFO]: Waiting for pending navigations...
+[1526298953.573][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.578][INFO]: Waiting for pending navigations...
+[1526298953.579][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.579][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-14"
+}
+[1526298953.581][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-14"
+}
+[1526298953.581][INFO]: Waiting for pending navigations...
+[1526298953.582][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.593][INFO]: Waiting for pending navigations...
+[1526298953.594][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.594][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.598][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-14",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-14"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.598][INFO]: Waiting for pending navigations...
+[1526298953.600][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.602][INFO]: Waiting for pending navigations...
+[1526298953.603][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.603][INFO]: RESPONSE ExecuteScript
+[1526298953.604][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-14"
+}
+[1526298953.604][INFO]: Waiting for pending navigations...
+[1526298953.606][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.610][INFO]: Waiting for pending navigations...
+[1526298953.611][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.611][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.615][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-14",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-14"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.615][INFO]: Waiting for pending navigations...
+[1526298953.616][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.618][INFO]: Waiting for pending navigations...
+[1526298953.620][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.620][INFO]: RESPONSE ExecuteScript
+[1526298953.622][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.622][INFO]: Waiting for pending navigations...
+[1526298953.623][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.625][INFO]: Waiting for pending navigations...
+[1526298953.626][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.626][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.629][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298953.629][INFO]: RESPONSE SetTimeout
+[1526298953.630][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-14"
+}
+[1526298953.630][INFO]: Waiting for pending navigations...
+[1526298953.631][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.634][INFO]: Waiting for pending navigations...
+[1526298953.635][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.635][INFO]: RESPONSE GetElementTagName "select"
+[1526298953.636][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-14",
+   "name": "multiple"
+}
+[1526298953.636][INFO]: Waiting for pending navigations...
+[1526298953.637][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.640][INFO]: Waiting for pending navigations...
+[1526298953.641][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.641][INFO]: RESPONSE GetElementAttribute null
+[1526298953.643][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-14",
+   "using": "xpath",
+   "value": ".//option[@value = \"September\"]"
+}
+[1526298953.643][INFO]: Waiting for pending navigations...
+[1526298953.644][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.654][INFO]: Waiting for pending navigations...
+[1526298953.655][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.655][INFO]: RESPONSE FindChildElements [  ]
+[1526298953.658][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"September\"]"
+}
+[1526298953.658][INFO]: Waiting for pending navigations...
+[1526298953.659][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.670][INFO]: Waiting for pending navigations...
+[1526298953.671][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.671][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//option[@value = "September"]"}
+  (Session info: chrome=66.0.3359.170)
+[1526298953.674][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-14",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"September\"]"
+}
+[1526298953.674][INFO]: Waiting for pending navigations...
+[1526298953.675][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.686][INFO]: Waiting for pending navigations...
+[1526298953.687][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.687][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-15"
+} ]
+[1526298953.690][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"September\"]"
+}
+[1526298953.690][INFO]: Waiting for pending navigations...
+[1526298953.691][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.701][INFO]: Waiting for pending navigations...
+[1526298953.703][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.703][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-16"
+}
+[1526298953.704][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-16"
+}
+[1526298953.704][INFO]: Waiting for pending navigations...
+[1526298953.705][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.716][INFO]: Waiting for pending navigations...
+[1526298953.717][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.717][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.720][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-16",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-16"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.720][INFO]: Waiting for pending navigations...
+[1526298953.721][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.723][INFO]: Waiting for pending navigations...
+[1526298953.724][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.724][INFO]: RESPONSE ExecuteScript
+[1526298953.726][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-16"
+}
+[1526298953.726][INFO]: Waiting for pending navigations...
+[1526298953.727][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.732][INFO]: Waiting for pending navigations...
+[1526298953.733][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.733][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.736][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-16",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-16"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.736][INFO]: Waiting for pending navigations...
+[1526298953.736][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.738][INFO]: Waiting for pending navigations...
+[1526298953.740][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.740][INFO]: RESPONSE ExecuteScript
+[1526298953.741][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.741][INFO]: Waiting for pending navigations...
+[1526298953.743][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.744][INFO]: Waiting for pending navigations...
+[1526298953.745][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.745][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.746][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-15"
+}
+[1526298953.746][INFO]: Waiting for pending navigations...
+[1526298953.747][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.755][INFO]: Waiting for pending navigations...
+[1526298953.756][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.756][INFO]: RESPONSE IsElementSelected false
+[1526298953.759][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-15"
+}
+[1526298953.759][INFO]: Waiting for pending navigations...
+[1526298953.760][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.784][INFO]: Waiting for pending navigations...
+[1526298953.785][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.785][INFO]: RESPONSE ClickElement
+[1526298953.787][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.787][INFO]: Waiting for pending navigations...
+[1526298953.788][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.791][INFO]: Waiting for pending navigations...
+[1526298953.792][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.792][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.795][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='toDay']"
+}
+[1526298953.795][INFO]: Waiting for pending navigations...
+[1526298953.796][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.809][INFO]: Waiting for pending navigations...
+[1526298953.810][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.810][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-17"
+}
+[1526298953.813][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='toDay']"
+}
+[1526298953.813][INFO]: Waiting for pending navigations...
+[1526298953.814][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.819][INFO]: Waiting for pending navigations...
+[1526298953.820][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.820][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-17"
+}
+[1526298953.821][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-17"
+}
+[1526298953.821][INFO]: Waiting for pending navigations...
+[1526298953.822][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.832][INFO]: Waiting for pending navigations...
+[1526298953.833][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.833][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.836][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-17",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-17"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.836][INFO]: Waiting for pending navigations...
+[1526298953.837][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.839][INFO]: Waiting for pending navigations...
+[1526298953.840][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.840][INFO]: RESPONSE ExecuteScript
+[1526298953.842][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-17"
+}
+[1526298953.842][INFO]: Waiting for pending navigations...
+[1526298953.843][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.848][INFO]: Waiting for pending navigations...
+[1526298953.849][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.849][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.853][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-17",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-17"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.853][INFO]: Waiting for pending navigations...
+[1526298953.854][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.856][INFO]: Waiting for pending navigations...
+[1526298953.857][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.858][INFO]: RESPONSE ExecuteScript
+[1526298953.859][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.859][INFO]: Waiting for pending navigations...
+[1526298953.860][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.862][INFO]: Waiting for pending navigations...
+[1526298953.863][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.863][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.865][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298953.866][INFO]: RESPONSE SetTimeout
+[1526298953.867][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-17"
+}
+[1526298953.867][INFO]: Waiting for pending navigations...
+[1526298953.869][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.871][INFO]: Waiting for pending navigations...
+[1526298953.872][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.872][INFO]: RESPONSE GetElementTagName "select"
+[1526298953.874][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-17",
+   "name": "multiple"
+}
+[1526298953.874][INFO]: Waiting for pending navigations...
+[1526298953.875][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.878][INFO]: Waiting for pending navigations...
+[1526298953.879][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.879][INFO]: RESPONSE GetElementAttribute null
+[1526298953.883][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-17",
+   "using": "xpath",
+   "value": ".//option[@value = \"23\"]"
+}
+[1526298953.883][INFO]: Waiting for pending navigations...
+[1526298953.884][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.894][INFO]: Waiting for pending navigations...
+[1526298953.896][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.896][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-18"
+} ]
+[1526298953.898][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"23\"]"
+}
+[1526298953.898][INFO]: Waiting for pending navigations...
+[1526298953.899][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.904][INFO]: Waiting for pending navigations...
+[1526298953.905][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.905][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-10"
+}
+[1526298953.906][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-10"
+}
+[1526298953.906][INFO]: Waiting for pending navigations...
+[1526298953.907][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.912][INFO]: Waiting for pending navigations...
+[1526298953.913][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.913][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.915][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-10",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-10"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298953.915][INFO]: Waiting for pending navigations...
+[1526298953.916][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.918][INFO]: Waiting for pending navigations...
+[1526298953.919][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.919][INFO]: RESPONSE ExecuteScript
+[1526298953.920][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-10"
+}
+[1526298953.921][INFO]: Waiting for pending navigations...
+[1526298953.922][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.926][INFO]: Waiting for pending navigations...
+[1526298953.927][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.927][INFO]: RESPONSE IsElementDisplayed true
+[1526298953.931][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-10",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-10"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298953.931][INFO]: Waiting for pending navigations...
+[1526298953.932][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.933][INFO]: Waiting for pending navigations...
+[1526298953.934][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.934][INFO]: RESPONSE ExecuteScript
+[1526298953.935][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.936][INFO]: Waiting for pending navigations...
+[1526298953.937][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.938][INFO]: Waiting for pending navigations...
+[1526298953.939][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.939][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.940][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-18"
+}
+[1526298953.940][INFO]: Waiting for pending navigations...
+[1526298953.941][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.949][INFO]: Waiting for pending navigations...
+[1526298953.950][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.950][INFO]: RESPONSE IsElementSelected false
+[1526298953.953][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-18"
+}
+[1526298953.953][INFO]: Waiting for pending navigations...
+[1526298953.954][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.980][INFO]: Waiting for pending navigations...
+[1526298953.981][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.981][INFO]: RESPONSE ClickElement
+[1526298953.983][INFO]: COMMAND GetUrl {
+
+}
+[1526298953.983][INFO]: Waiting for pending navigations...
+[1526298953.984][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.990][INFO]: Waiting for pending navigations...
+[1526298953.994][INFO]: Done waiting for pending navigations. Status: ok
+[1526298953.994][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298953.997][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[@name='servClass']"
+}
+[1526298953.997][INFO]: Waiting for pending navigations...
+[1526298953.998][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.010][INFO]: Waiting for pending navigations...
+[1526298954.011][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.011][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.3311192471365929-19"
+}, {
+   "ELEMENT": "0.3311192471365929-20"
+}, {
+   "ELEMENT": "0.3311192471365929-21"
+} ]
+[1526298954.014][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='servClass']"
+}
+[1526298954.014][INFO]: Waiting for pending navigations...
+[1526298954.015][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.025][INFO]: Waiting for pending navigations...
+[1526298954.026][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.026][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-19"
+}
+[1526298954.027][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-19"
+}
+[1526298954.027][INFO]: Waiting for pending navigations...
+[1526298954.031][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.046][INFO]: Waiting for pending navigations...
+[1526298954.047][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.047][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.056][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-19",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-19"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298954.056][INFO]: Waiting for pending navigations...
+[1526298954.057][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.060][INFO]: Waiting for pending navigations...
+[1526298954.061][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.061][INFO]: RESPONSE ExecuteScript
+[1526298954.063][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-19"
+}
+[1526298954.063][INFO]: Waiting for pending navigations...
+[1526298954.064][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.069][INFO]: Waiting for pending navigations...
+[1526298954.070][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.070][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.073][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-19",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-19"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298954.073][INFO]: Waiting for pending navigations...
+[1526298954.074][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.076][INFO]: Waiting for pending navigations...
+[1526298954.077][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.077][INFO]: RESPONSE ExecuteScript
+[1526298954.079][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.079][INFO]: Waiting for pending navigations...
+[1526298954.080][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.081][INFO]: Waiting for pending navigations...
+[1526298954.082][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.082][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298954.083][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-19",
+   "name": "value"
+}
+[1526298954.083][INFO]: Waiting for pending navigations...
+[1526298954.084][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.087][INFO]: Waiting for pending navigations...
+[1526298954.088][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.088][INFO]: RESPONSE GetElementAttribute "Coach"
+[1526298954.089][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-20",
+   "name": "value"
+}
+[1526298954.089][INFO]: Waiting for pending navigations...
+[1526298954.090][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.092][INFO]: Waiting for pending navigations...
+[1526298954.093][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.093][INFO]: RESPONSE GetElementAttribute "Business"
+[1526298954.095][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-20"
+}
+[1526298954.095][INFO]: Waiting for pending navigations...
+[1526298954.096][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.131][INFO]: Waiting for pending navigations...
+[1526298954.134][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.134][INFO]: RESPONSE ClickElement
+[1526298954.135][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.135][INFO]: Waiting for pending navigations...
+[1526298954.136][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.138][INFO]: Waiting for pending navigations...
+[1526298954.139][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.139][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298954.142][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='airline']"
+}
+[1526298954.142][INFO]: Waiting for pending navigations...
+[1526298954.143][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.158][INFO]: Waiting for pending navigations...
+[1526298954.159][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.159][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-22"
+}
+[1526298954.163][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='airline']"
+}
+[1526298954.163][INFO]: Waiting for pending navigations...
+[1526298954.164][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.171][INFO]: Waiting for pending navigations...
+[1526298954.172][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.172][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-22"
+}
+[1526298954.174][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-22"
+}
+[1526298954.174][INFO]: Waiting for pending navigations...
+[1526298954.175][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.185][INFO]: Waiting for pending navigations...
+[1526298954.186][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.186][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.190][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-22",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-22"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298954.190][INFO]: Waiting for pending navigations...
+[1526298954.191][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.193][INFO]: Waiting for pending navigations...
+[1526298954.194][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.194][INFO]: RESPONSE ExecuteScript
+[1526298954.196][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-22"
+}
+[1526298954.196][INFO]: Waiting for pending navigations...
+[1526298954.197][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.203][INFO]: Waiting for pending navigations...
+[1526298954.204][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.204][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.207][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-22",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-22"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298954.207][INFO]: Waiting for pending navigations...
+[1526298954.209][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.211][INFO]: Waiting for pending navigations...
+[1526298954.213][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.213][INFO]: RESPONSE ExecuteScript
+[1526298954.215][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.215][INFO]: Waiting for pending navigations...
+[1526298954.217][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.219][INFO]: Waiting for pending navigations...
+[1526298954.220][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.220][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298954.222][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298954.222][INFO]: RESPONSE SetTimeout
+[1526298954.223][INFO]: COMMAND GetElementTagName {
+   "id": "0.3311192471365929-22"
+}
+[1526298954.223][INFO]: Waiting for pending navigations...
+[1526298954.224][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.226][INFO]: Waiting for pending navigations...
+[1526298954.227][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.227][INFO]: RESPONSE GetElementTagName "select"
+[1526298954.228][INFO]: COMMAND GetElementAttribute {
+   "id": "0.3311192471365929-22",
+   "name": "multiple"
+}
+[1526298954.228][INFO]: Waiting for pending navigations...
+[1526298954.229][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.234][INFO]: Waiting for pending navigations...
+[1526298954.236][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.236][INFO]: RESPONSE GetElementAttribute null
+[1526298954.238][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-22",
+   "using": "xpath",
+   "value": ".//option[@value = \"Pangea Airlines\"]"
+}
+[1526298954.238][INFO]: Waiting for pending navigations...
+[1526298954.239][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.248][INFO]: Waiting for pending navigations...
+[1526298954.249][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.249][INFO]: RESPONSE FindChildElements [  ]
+[1526298954.251][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[@value = \"Pangea Airlines\"]"
+}
+[1526298954.251][INFO]: Waiting for pending navigations...
+[1526298954.252][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.264][INFO]: Waiting for pending navigations...
+[1526298954.265][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.265][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":".//option[@value = "Pangea Airlines"]"}
+  (Session info: chrome=66.0.3359.170)
+[1526298954.270][INFO]: COMMAND FindChildElements {
+   "id": "0.3311192471365929-22",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"Pangea Airlines\"]"
+}
+[1526298954.270][INFO]: Waiting for pending navigations...
+[1526298954.271][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.284][INFO]: Waiting for pending navigations...
+[1526298954.285][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.285][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.3311192471365929-23"
+} ]
+[1526298954.287][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"Pangea Airlines\"]"
+}
+[1526298954.287][INFO]: Waiting for pending navigations...
+[1526298954.288][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.298][INFO]: Waiting for pending navigations...
+[1526298954.299][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.299][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-23"
+}
+[1526298954.300][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-23"
+}
+[1526298954.300][INFO]: Waiting for pending navigations...
+[1526298954.302][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.312][INFO]: Waiting for pending navigations...
+[1526298954.313][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.313][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.316][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-23",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-23"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298954.316][INFO]: Waiting for pending navigations...
+[1526298954.317][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.320][INFO]: Waiting for pending navigations...
+[1526298954.321][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.321][INFO]: RESPONSE ExecuteScript
+[1526298954.322][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-23"
+}
+[1526298954.322][INFO]: Waiting for pending navigations...
+[1526298954.323][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.327][INFO]: Waiting for pending navigations...
+[1526298954.328][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.328][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.331][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-23",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-23"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298954.331][INFO]: Waiting for pending navigations...
+[1526298954.332][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.334][INFO]: Waiting for pending navigations...
+[1526298954.335][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.335][INFO]: RESPONSE ExecuteScript
+[1526298954.336][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.336][INFO]: Waiting for pending navigations...
+[1526298954.337][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.339][INFO]: Waiting for pending navigations...
+[1526298954.340][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.340][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298954.341][INFO]: COMMAND IsElementSelected {
+   "id": "0.3311192471365929-23"
+}
+[1526298954.341][INFO]: Waiting for pending navigations...
+[1526298954.342][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.349][INFO]: Waiting for pending navigations...
+[1526298954.350][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.350][INFO]: RESPONSE IsElementSelected false
+[1526298954.353][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-23"
+}
+[1526298954.353][INFO]: Waiting for pending navigations...
+[1526298954.354][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.379][INFO]: Waiting for pending navigations...
+[1526298954.380][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.380][INFO]: RESPONSE ClickElement
+[1526298954.382][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.382][INFO]: Waiting for pending navigations...
+[1526298954.383][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.385][INFO]: Waiting for pending navigations...
+[1526298954.386][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.386][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298954.389][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='findFlights']"
+}
+[1526298954.389][INFO]: Waiting for pending navigations...
+[1526298954.390][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.400][INFO]: Waiting for pending navigations...
+[1526298954.401][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.401][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-24"
+}
+[1526298954.404][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='findFlights']"
+}
+[1526298954.404][INFO]: Waiting for pending navigations...
+[1526298954.405][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.410][INFO]: Waiting for pending navigations...
+[1526298954.411][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.411][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3311192471365929-24"
+}
+[1526298954.412][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-24"
+}
+[1526298954.412][INFO]: Waiting for pending navigations...
+[1526298954.413][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.423][INFO]: Waiting for pending navigations...
+[1526298954.424][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.424][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.426][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-24",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-24"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298954.426][INFO]: Waiting for pending navigations...
+[1526298954.427][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.430][INFO]: Waiting for pending navigations...
+[1526298954.431][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.431][INFO]: RESPONSE ExecuteScript
+[1526298954.432][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.3311192471365929-24"
+}
+[1526298954.432][INFO]: Waiting for pending navigations...
+[1526298954.434][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.439][INFO]: Waiting for pending navigations...
+[1526298954.440][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.440][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.444][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.3311192471365929-24",
+      "element-6066-11e4-a52e-4f735466cecf": "0.3311192471365929-24"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298954.444][INFO]: Waiting for pending navigations...
+[1526298954.445][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.447][INFO]: Waiting for pending navigations...
+[1526298954.448][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.448][INFO]: RESPONSE ExecuteScript
+[1526298954.450][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.450][INFO]: Waiting for pending navigations...
+[1526298954.451][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.453][INFO]: Waiting for pending navigations...
+[1526298954.454][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.454][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation.php?osCsid=aac32783a9eb9cc47a001b017fa8c93e"
+[1526298954.456][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298954.456][INFO]: RESPONSE SetTimeout
+[1526298954.458][INFO]: COMMAND ClickElement {
+   "id": "0.3311192471365929-24"
+}
+[1526298954.458][INFO]: Waiting for pending navigations...
+[1526298954.459][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.498][INFO]: Waiting for pending navigations...
+[1526298954.779][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.779][INFO]: RESPONSE ClickElement
+[1526298954.781][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.781][INFO]: Waiting for pending navigations...
+[1526298954.782][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.784][INFO]: Waiting for pending navigations...
+[1526298954.787][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.787][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation2.php"
+[1526298954.789][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.789][INFO]: Waiting for pending navigations...
+[1526298954.790][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.792][INFO]: Waiting for pending navigations...
+[1526298954.793][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.793][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation2.php"
+[1526298954.796][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_selectflight.gif']"
+}
+[1526298954.796][INFO]: Waiting for pending navigations...
+[1526298954.796][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.808][INFO]: Waiting for pending navigations...
+[1526298954.810][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.810][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.42726715976443397-1"
+}
+[1526298954.817][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_selectflight.gif']"
+}
+[1526298954.817][INFO]: Waiting for pending navigations...
+[1526298954.819][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.825][INFO]: Waiting for pending navigations...
+[1526298954.826][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.826][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.42726715976443397-1"
+}
+[1526298954.827][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.42726715976443397-1"
+}
+[1526298954.827][INFO]: Waiting for pending navigations...
+[1526298954.828][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.840][INFO]: Waiting for pending navigations...
+[1526298954.841][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.841][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.844][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.42726715976443397-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.42726715976443397-1"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298954.844][INFO]: Waiting for pending navigations...
+[1526298954.845][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.847][INFO]: Waiting for pending navigations...
+[1526298954.848][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.848][INFO]: RESPONSE ExecuteScript
+[1526298954.850][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.42726715976443397-1"
+}
+[1526298954.850][INFO]: Waiting for pending navigations...
+[1526298954.851][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.856][INFO]: Waiting for pending navigations...
+[1526298954.857][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.857][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.860][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.42726715976443397-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.42726715976443397-1"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298954.860][INFO]: Waiting for pending navigations...
+[1526298954.862][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.864][INFO]: Waiting for pending navigations...
+[1526298954.867][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.867][INFO]: RESPONSE ExecuteScript
+[1526298954.868][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.868][INFO]: Waiting for pending navigations...
+[1526298954.869][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.871][INFO]: Waiting for pending navigations...
+[1526298954.872][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.872][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation2.php"
+[1526298954.876][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298954.876][INFO]: RESPONSE SetTimeout
+[1526298954.878][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='reserveFlights']"
+}
+[1526298954.878][INFO]: Waiting for pending navigations...
+[1526298954.879][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.891][INFO]: Waiting for pending navigations...
+[1526298954.892][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.892][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.42726715976443397-2"
+}
+[1526298954.895][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='reserveFlights']"
+}
+[1526298954.895][INFO]: Waiting for pending navigations...
+[1526298954.896][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.902][INFO]: Waiting for pending navigations...
+[1526298954.903][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.903][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.42726715976443397-2"
+}
+[1526298954.904][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.42726715976443397-2"
+}
+[1526298954.904][INFO]: Waiting for pending navigations...
+[1526298954.906][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.917][INFO]: Waiting for pending navigations...
+[1526298954.918][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.918][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.920][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.42726715976443397-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.42726715976443397-2"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298954.920][INFO]: Waiting for pending navigations...
+[1526298954.921][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.927][INFO]: Waiting for pending navigations...
+[1526298954.928][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.928][INFO]: RESPONSE ExecuteScript
+[1526298954.929][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.42726715976443397-2"
+}
+[1526298954.929][INFO]: Waiting for pending navigations...
+[1526298954.930][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.935][INFO]: Waiting for pending navigations...
+[1526298954.936][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.936][INFO]: RESPONSE IsElementDisplayed true
+[1526298954.938][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.42726715976443397-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.42726715976443397-2"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298954.938][INFO]: Waiting for pending navigations...
+[1526298954.939][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.941][INFO]: Waiting for pending navigations...
+[1526298954.943][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.943][INFO]: RESPONSE ExecuteScript
+[1526298954.944][INFO]: COMMAND GetUrl {
+
+}
+[1526298954.944][INFO]: Waiting for pending navigations...
+[1526298954.945][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.948][INFO]: Waiting for pending navigations...
+[1526298954.949][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.949][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercuryreservation2.php"
+[1526298954.952][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298954.953][INFO]: RESPONSE SetTimeout
+[1526298954.955][INFO]: COMMAND ClickElement {
+   "id": "0.42726715976443397-2"
+}
+[1526298954.955][INFO]: Waiting for pending navigations...
+[1526298954.956][INFO]: Done waiting for pending navigations. Status: ok
+[1526298954.994][INFO]: Waiting for pending navigations...
+[1526298955.442][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.442][INFO]: RESPONSE ClickElement
+[1526298955.443][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.443][INFO]: Waiting for pending navigations...
+[1526298955.444][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.446][INFO]: Waiting for pending navigations...
+[1526298955.447][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.447][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.448][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.448][INFO]: Waiting for pending navigations...
+[1526298955.449][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.450][INFO]: Waiting for pending navigations...
+[1526298955.468][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.468][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.472][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_book.gif']"
+}
+[1526298955.472][INFO]: Waiting for pending navigations...
+[1526298955.473][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.487][INFO]: Waiting for pending navigations...
+[1526298955.489][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.489][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-1"
+}
+[1526298955.491][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_book.gif']"
+}
+[1526298955.492][INFO]: Waiting for pending navigations...
+[1526298955.493][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.498][INFO]: Waiting for pending navigations...
+[1526298955.499][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.499][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-1"
+}
+[1526298955.500][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-1"
+}
+[1526298955.500][INFO]: Waiting for pending navigations...
+[1526298955.501][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.511][INFO]: Waiting for pending navigations...
+[1526298955.512][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.512][INFO]: RESPONSE IsElementDisplayed true
+[1526298955.515][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-1"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298955.515][INFO]: Waiting for pending navigations...
+[1526298955.516][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.518][INFO]: Waiting for pending navigations...
+[1526298955.519][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.519][INFO]: RESPONSE ExecuteScript
+[1526298955.521][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-1"
+}
+[1526298955.521][INFO]: Waiting for pending navigations...
+[1526298955.522][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.526][INFO]: Waiting for pending navigations...
+[1526298955.531][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.531][INFO]: RESPONSE IsElementDisplayed true
+[1526298955.533][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-1"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298955.533][INFO]: Waiting for pending navigations...
+[1526298955.535][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.539][INFO]: Waiting for pending navigations...
+[1526298955.543][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.543][INFO]: RESPONSE ExecuteScript
+[1526298955.544][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.544][INFO]: Waiting for pending navigations...
+[1526298955.545][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.547][INFO]: Waiting for pending navigations...
+[1526298955.548][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.548][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.557][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298955.557][INFO]: RESPONSE SetTimeout
+[1526298955.561][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='passFirst0']"
+}
+[1526298955.561][INFO]: Waiting for pending navigations...
+[1526298955.563][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.574][INFO]: Waiting for pending navigations...
+[1526298955.576][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.576][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-2"
+}
+[1526298955.577][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='passFirst0']"
+}
+[1526298955.577][INFO]: Waiting for pending navigations...
+[1526298955.579][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.584][INFO]: Waiting for pending navigations...
+[1526298955.585][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.585][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-2"
+}
+[1526298955.587][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-2"
+}
+[1526298955.587][INFO]: Waiting for pending navigations...
+[1526298955.588][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.600][INFO]: Waiting for pending navigations...
+[1526298955.601][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.601][INFO]: RESPONSE IsElementDisplayed true
+[1526298955.604][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-2"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298955.604][INFO]: Waiting for pending navigations...
+[1526298955.605][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.607][INFO]: Waiting for pending navigations...
+[1526298955.608][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.608][INFO]: RESPONSE ExecuteScript
+[1526298955.610][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-2"
+}
+[1526298955.610][INFO]: Waiting for pending navigations...
+[1526298955.611][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.616][INFO]: Waiting for pending navigations...
+[1526298955.617][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.617][INFO]: RESPONSE IsElementDisplayed true
+[1526298955.620][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-2"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298955.620][INFO]: Waiting for pending navigations...
+[1526298955.621][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.623][INFO]: Waiting for pending navigations...
+[1526298955.626][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.626][INFO]: RESPONSE ExecuteScript
+[1526298955.627][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.627][INFO]: Waiting for pending navigations...
+[1526298955.628][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.630][INFO]: Waiting for pending navigations...
+[1526298955.631][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.631][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.634][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298955.634][INFO]: RESPONSE SetTimeout
+[1526298955.636][INFO]: COMMAND ClickElement {
+   "id": "0.7433620224996844-2"
+}
+[1526298955.636][INFO]: Waiting for pending navigations...
+[1526298955.638][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.680][INFO]: Waiting for pending navigations...
+[1526298955.680][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.680][INFO]: RESPONSE ClickElement
+[1526298955.682][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.682][INFO]: Waiting for pending navigations...
+[1526298955.683][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.684][INFO]: Waiting for pending navigations...
+[1526298955.686][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.686][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.689][INFO]: COMMAND ClearElement {
+   "id": "0.7433620224996844-2"
+}
+[1526298955.689][INFO]: Waiting for pending navigations...
+[1526298955.690][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.703][INFO]: Waiting for pending navigations...
+[1526298955.704][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.704][INFO]: RESPONSE ClearElement
+[1526298955.705][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.705][INFO]: Waiting for pending navigations...
+[1526298955.706][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.707][INFO]: Waiting for pending navigations...
+[1526298955.708][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.708][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.711][INFO]: COMMAND TypeElement {
+   "id": "0.7433620224996844-2",
+   "value": [ "Jane" ]
+}
+[1526298955.711][INFO]: Waiting for pending navigations...
+[1526298955.711][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.795][INFO]: Waiting for pending navigations...
+[1526298955.796][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.796][INFO]: RESPONSE TypeElement
+[1526298955.797][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.797][INFO]: Waiting for pending navigations...
+[1526298955.798][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.800][INFO]: Waiting for pending navigations...
+[1526298955.801][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.801][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.805][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='passLast0']"
+}
+[1526298955.806][INFO]: Waiting for pending navigations...
+[1526298955.807][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.820][INFO]: Waiting for pending navigations...
+[1526298955.822][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.822][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-3"
+}
+[1526298955.824][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='passLast0']"
+}
+[1526298955.824][INFO]: Waiting for pending navigations...
+[1526298955.825][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.830][INFO]: Waiting for pending navigations...
+[1526298955.831][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.831][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-3"
+}
+[1526298955.833][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-3"
+}
+[1526298955.833][INFO]: Waiting for pending navigations...
+[1526298955.834][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.846][INFO]: Waiting for pending navigations...
+[1526298955.847][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.847][INFO]: RESPONSE IsElementDisplayed true
+[1526298955.849][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-3"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298955.849][INFO]: Waiting for pending navigations...
+[1526298955.850][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.853][INFO]: Waiting for pending navigations...
+[1526298955.855][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.855][INFO]: RESPONSE ExecuteScript
+[1526298955.856][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-3"
+}
+[1526298955.856][INFO]: Waiting for pending navigations...
+[1526298955.858][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.863][INFO]: Waiting for pending navigations...
+[1526298955.865][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.865][INFO]: RESPONSE IsElementDisplayed true
+[1526298955.867][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-3"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298955.867][INFO]: Waiting for pending navigations...
+[1526298955.868][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.873][INFO]: Waiting for pending navigations...
+[1526298955.875][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.875][INFO]: RESPONSE ExecuteScript
+[1526298955.876][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.876][INFO]: Waiting for pending navigations...
+[1526298955.877][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.879][INFO]: Waiting for pending navigations...
+[1526298955.880][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.880][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.883][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298955.883][INFO]: RESPONSE SetTimeout
+[1526298955.886][INFO]: COMMAND ClickElement {
+   "id": "0.7433620224996844-3"
+}
+[1526298955.886][INFO]: Waiting for pending navigations...
+[1526298955.888][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.931][INFO]: Waiting for pending navigations...
+[1526298955.932][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.932][INFO]: RESPONSE ClickElement
+[1526298955.933][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.933][INFO]: Waiting for pending navigations...
+[1526298955.934][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.937][INFO]: Waiting for pending navigations...
+[1526298955.937][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.938][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.939][INFO]: COMMAND ClearElement {
+   "id": "0.7433620224996844-3"
+}
+[1526298955.939][INFO]: Waiting for pending navigations...
+[1526298955.940][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.953][INFO]: Waiting for pending navigations...
+[1526298955.954][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.954][INFO]: RESPONSE ClearElement
+[1526298955.955][INFO]: COMMAND GetUrl {
+
+}
+[1526298955.955][INFO]: Waiting for pending navigations...
+[1526298955.956][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.958][INFO]: Waiting for pending navigations...
+[1526298955.959][INFO]: Done waiting for pending navigations. Status: ok
+[1526298955.959][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298955.960][INFO]: COMMAND TypeElement {
+   "id": "0.7433620224996844-3",
+   "value": [ "Doe" ]
+}
+[1526298955.961][INFO]: Waiting for pending navigations...
+[1526298955.962][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.004][INFO]: Waiting for pending navigations...
+[1526298956.009][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.009][INFO]: RESPONSE TypeElement
+[1526298956.010][INFO]: COMMAND GetUrl {
+
+}
+[1526298956.010][INFO]: Waiting for pending navigations...
+[1526298956.011][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.013][INFO]: Waiting for pending navigations...
+[1526298956.014][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.014][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298956.016][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='creditnumber']"
+}
+[1526298956.016][INFO]: Waiting for pending navigations...
+[1526298956.016][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.027][INFO]: Waiting for pending navigations...
+[1526298956.029][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.029][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-4"
+}
+[1526298956.034][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='creditnumber']"
+}
+[1526298956.034][INFO]: Waiting for pending navigations...
+[1526298956.035][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.040][INFO]: Waiting for pending navigations...
+[1526298956.041][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.041][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-4"
+}
+[1526298956.042][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-4"
+}
+[1526298956.042][INFO]: Waiting for pending navigations...
+[1526298956.043][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.054][INFO]: Waiting for pending navigations...
+[1526298956.055][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.055][INFO]: RESPONSE IsElementDisplayed true
+[1526298956.057][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-4",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-4"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298956.057][INFO]: Waiting for pending navigations...
+[1526298956.058][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.061][INFO]: Waiting for pending navigations...
+[1526298956.063][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.063][INFO]: RESPONSE ExecuteScript
+[1526298956.064][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-4"
+}
+[1526298956.064][INFO]: Waiting for pending navigations...
+[1526298956.066][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.073][INFO]: Waiting for pending navigations...
+[1526298956.074][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.074][INFO]: RESPONSE IsElementDisplayed true
+[1526298956.077][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-4",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-4"
+   } ],
+   "script": "arguments[0].style.border='3px solid red'"
+}
+[1526298956.077][INFO]: Waiting for pending navigations...
+[1526298956.078][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.081][INFO]: Waiting for pending navigations...
+[1526298956.083][INFO]: Done waiting for pending navigations. Status: ok
+[1526298956.083][INFO]: RESPONSE ExecuteScript
+[1526298961.085][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.085][INFO]: Waiting for pending navigations...
+[1526298961.086][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.087][INFO]: Waiting for pending navigations...
+[1526298961.089][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.089][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298961.090][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.090][INFO]: Waiting for pending navigations...
+[1526298961.091][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.092][INFO]: Waiting for pending navigations...
+[1526298961.093][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.093][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298961.096][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298961.096][INFO]: RESPONSE SetTimeout
+[1526298961.098][INFO]: COMMAND ClickElement {
+   "id": "0.7433620224996844-4"
+}
+[1526298961.098][INFO]: Waiting for pending navigations...
+[1526298961.099][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.139][INFO]: Waiting for pending navigations...
+[1526298961.140][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.140][INFO]: RESPONSE ClickElement
+[1526298961.143][INFO]: COMMAND ClearElement {
+   "id": "0.7433620224996844-4"
+}
+[1526298961.143][INFO]: Waiting for pending navigations...
+[1526298961.144][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.157][INFO]: Waiting for pending navigations...
+[1526298961.158][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.158][INFO]: RESPONSE ClearElement
+[1526298961.161][INFO]: COMMAND TypeElement {
+   "id": "0.7433620224996844-4",
+   "value": [ "2345" ]
+}
+[1526298961.161][INFO]: Waiting for pending navigations...
+[1526298961.162][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.210][INFO]: Waiting for pending navigations...
+[1526298961.211][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.211][INFO]: RESPONSE TypeElement
+[1526298961.215][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='buyFlights']"
+}
+[1526298961.215][INFO]: Waiting for pending navigations...
+[1526298961.217][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.229][INFO]: Waiting for pending navigations...
+[1526298961.230][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.230][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-5"
+}
+[1526298961.232][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@name='buyFlights']"
+}
+[1526298961.232][INFO]: Waiting for pending navigations...
+[1526298961.233][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.240][INFO]: Waiting for pending navigations...
+[1526298961.241][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.241][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7433620224996844-5"
+}
+[1526298961.242][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-5"
+}
+[1526298961.242][INFO]: Waiting for pending navigations...
+[1526298961.243][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.253][INFO]: Waiting for pending navigations...
+[1526298961.254][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.254][INFO]: RESPONSE IsElementDisplayed true
+[1526298961.256][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-5",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-5"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298961.256][INFO]: Waiting for pending navigations...
+[1526298961.257][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.259][INFO]: Waiting for pending navigations...
+[1526298961.260][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.260][INFO]: RESPONSE ExecuteScript
+[1526298961.262][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7433620224996844-5"
+}
+[1526298961.262][INFO]: Waiting for pending navigations...
+[1526298961.263][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.269][INFO]: Waiting for pending navigations...
+[1526298961.269][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.270][INFO]: RESPONSE IsElementDisplayed true
+[1526298961.271][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.7433620224996844-5",
+      "element-6066-11e4-a52e-4f735466cecf": "0.7433620224996844-5"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298961.271][INFO]: Waiting for pending navigations...
+[1526298961.272][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.275][INFO]: Waiting for pending navigations...
+[1526298961.278][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.278][INFO]: RESPONSE ExecuteScript
+[1526298961.280][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.280][INFO]: Waiting for pending navigations...
+[1526298961.281][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.283][INFO]: Waiting for pending navigations...
+[1526298961.284][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.284][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase.php"
+[1526298961.286][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298961.286][INFO]: RESPONSE SetTimeout
+[1526298961.288][INFO]: COMMAND ClickElement {
+   "id": "0.7433620224996844-5"
+}
+[1526298961.288][INFO]: Waiting for pending navigations...
+[1526298961.289][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.333][INFO]: Waiting for pending navigations...
+[1526298961.812][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.812][INFO]: RESPONSE ClickElement
+[1526298961.813][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.813][INFO]: Waiting for pending navigations...
+[1526298961.814][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.816][INFO]: Waiting for pending navigations...
+[1526298961.817][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.817][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase2.php"
+[1526298961.818][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.818][INFO]: Waiting for pending navigations...
+[1526298961.819][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.821][INFO]: Waiting for pending navigations...
+[1526298961.821][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.821][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase2.php"
+[1526298961.824][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_confirmation.gif']"
+}
+[1526298961.824][INFO]: Waiting for pending navigations...
+[1526298961.825][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.836][INFO]: Waiting for pending navigations...
+[1526298961.837][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.837][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.37391511042171643-1"
+}
+[1526298961.841][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/masts/mast_confirmation.gif']"
+}
+[1526298961.841][INFO]: Waiting for pending navigations...
+[1526298961.842][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.847][INFO]: Waiting for pending navigations...
+[1526298961.848][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.848][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.37391511042171643-1"
+}
+[1526298961.849][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.37391511042171643-1"
+}
+[1526298961.849][INFO]: Waiting for pending navigations...
+[1526298961.851][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.862][INFO]: Waiting for pending navigations...
+[1526298961.864][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.864][INFO]: RESPONSE IsElementDisplayed true
+[1526298961.866][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.37391511042171643-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.37391511042171643-1"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298961.866][INFO]: Waiting for pending navigations...
+[1526298961.867][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.870][INFO]: Waiting for pending navigations...
+[1526298961.871][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.871][INFO]: RESPONSE ExecuteScript
+[1526298961.872][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.37391511042171643-1"
+}
+[1526298961.872][INFO]: Waiting for pending navigations...
+[1526298961.874][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.880][INFO]: Waiting for pending navigations...
+[1526298961.881][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.881][INFO]: RESPONSE IsElementDisplayed true
+[1526298961.884][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.37391511042171643-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.37391511042171643-1"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298961.884][INFO]: Waiting for pending navigations...
+[1526298961.885][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.888][INFO]: Waiting for pending navigations...
+[1526298961.890][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.890][INFO]: RESPONSE ExecuteScript
+[1526298961.892][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.892][INFO]: Waiting for pending navigations...
+[1526298961.893][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.896][INFO]: Waiting for pending navigations...
+[1526298961.897][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.897][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase2.php"
+[1526298961.900][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298961.900][INFO]: RESPONSE SetTimeout
+[1526298961.904][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/forms/Logout.gif']"
+}
+[1526298961.904][INFO]: Waiting for pending navigations...
+[1526298961.905][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.916][INFO]: Waiting for pending navigations...
+[1526298961.918][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.918][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.37391511042171643-2"
+}
+[1526298961.920][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@src='/images/forms/Logout.gif']"
+}
+[1526298961.920][INFO]: Waiting for pending navigations...
+[1526298961.921][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.926][INFO]: Waiting for pending navigations...
+[1526298961.927][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.927][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.37391511042171643-2"
+}
+[1526298961.928][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.37391511042171643-2"
+}
+[1526298961.928][INFO]: Waiting for pending navigations...
+[1526298961.929][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.939][INFO]: Waiting for pending navigations...
+[1526298961.941][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.941][INFO]: RESPONSE IsElementDisplayed true
+[1526298961.943][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.37391511042171643-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.37391511042171643-2"
+   } ],
+   "script": "arguments[0].scrollIntoView(false);"
+}
+[1526298961.943][INFO]: Waiting for pending navigations...
+[1526298961.944][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.947][INFO]: Waiting for pending navigations...
+[1526298961.948][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.949][INFO]: RESPONSE ExecuteScript
+[1526298961.950][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.37391511042171643-2"
+}
+[1526298961.950][INFO]: Waiting for pending navigations...
+[1526298961.952][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.957][INFO]: Waiting for pending navigations...
+[1526298961.958][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.958][INFO]: RESPONSE IsElementDisplayed true
+[1526298961.960][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.37391511042171643-2",
+      "element-6066-11e4-a52e-4f735466cecf": "0.37391511042171643-2"
+   } ],
+   "script": "arguments[0].style.border='3px solid blue'"
+}
+[1526298961.960][INFO]: Waiting for pending navigations...
+[1526298961.962][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.964][INFO]: Waiting for pending navigations...
+[1526298961.966][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.966][INFO]: RESPONSE ExecuteScript
+[1526298961.968][INFO]: COMMAND GetUrl {
+
+}
+[1526298961.968][INFO]: Waiting for pending navigations...
+[1526298961.970][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.971][INFO]: Waiting for pending navigations...
+[1526298961.972][INFO]: Done waiting for pending navigations. Status: ok
+[1526298961.972][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurypurchase2.php"
+[1526298961.974][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1526298961.974][INFO]: RESPONSE SetTimeout
+[1526298961.979][INFO]: COMMAND ClickElement {
+   "id": "0.37391511042171643-2"
+}
+[1526298961.979][INFO]: Waiting for pending navigations...
+[1526298961.981][INFO]: Done waiting for pending navigations. Status: ok
+[1526298962.037][INFO]: Waiting for pending navigations...
+[1526298962.514][INFO]: Done waiting for pending navigations. Status: ok
+[1526298962.514][INFO]: RESPONSE ClickElement
+[1526298962.515][INFO]: COMMAND GetUrl {
+
+}
+[1526298962.515][INFO]: Waiting for pending navigations...
+[1526298962.517][INFO]: Done waiting for pending navigations. Status: ok
+[1526298962.520][INFO]: Waiting for pending navigations...
+[1526298962.521][INFO]: Done waiting for pending navigations. Status: ok
+[1526298962.521][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurysignon.php"
+[1526298962.522][INFO]: COMMAND GetUrl {
+
+}
+[1526298962.522][INFO]: Waiting for pending navigations...
+[1526298962.524][INFO]: Done waiting for pending navigations. Status: ok
+[1526298962.527][INFO]: Waiting for pending navigations...
+[1526298962.528][INFO]: Done waiting for pending navigations. Status: ok
+[1526298962.528][INFO]: RESPONSE GetUrl "http://newtours.demoaut.com/mercurysignon.php"
+[1526298969.582][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-C1E0EB1F84106CCA53A1FF3BC56A9E7D"
+}
+[1526298969.584][INFO]: RESPONSE SwitchToWindow
+[1526298969.585][INFO]: COMMAND GetWindows {
+
+}
+[1526298969.586][INFO]: RESPONSE GetWindows [ "CDwindow-C1E0EB1F84106CCA53A1FF3BC56A9E7D" ]
+[1526298969.588][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-C1E0EB1F84106CCA53A1FF3BC56A9E7D"
+}
+[1526298969.589][INFO]: RESPONSE SwitchToWindow
+[1526298969.591][INFO]: COMMAND CloseWindow {
+
+}
+[1526298969.652][INFO]: RESPONSE CloseWindow

@@ -1,0 +1,251 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Initialize connection to Mercury Tours website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9801121076,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login to Mercury Tours with browser\u003d\"chromedriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chromedriver",
+                  "offset": 37
+                }
+              ],
+              "location": "MercuryTours_Cucumber_KeyWords.mercury_login_main(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1782884,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#Given login to Mercury Tours with browser\u003d\"saucelabdriver\""
+              },
+              {
+                "line": 7,
+                "value": "# And configuration options\u003d\"SAUCELABDRIVER_BROWSER\u003dchrome;SAUCELABDRIVER_VERSION\u003dlatest-1\""
+              }
+            ],
+            "line": 8,
+            "name": "configuration options\u003d\"VERBOSE\u003dfalse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VERBOSE\u003dfalse",
+                  "offset": 23
+                }
+              ],
+              "location": "Cukes_Default_KeyWords.configuration_options(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 931009,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "set maximum retries\u003d3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "Cukes_Default_KeyWords.set_max_retries(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 643885207,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MercuryTours_Cucumber_KeyWords.beforeExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 66006,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Cukes_Default_KeyWords.beforeExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 825676303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Cukes_Default_KeyWords.begin_screen_record()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Flight reservations 1",
+        "description": "",
+        "id": "as-a-user-of-mercury-tours,-i-should-be-able-to-login-into-the-mercury-tours-website-and-make-several-flight-reservations;flight-reservations-1",
+        "after": [
+          {
+            "result": {
+              "duration": 692148,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Cukes_Default_KeyWords.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5237002158,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Cukes_Default_KeyWords.after_screen_record()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7439685,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "below list of itineraries",
+            "match": {
+              "location": "MercuryTours_Cucumber_KeyWords.mercury_itineraryList(ItineraryRow\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TripType",
+                  "PassengerCount",
+                  "DepartDest",
+                  "DepartMonth",
+                  "DepartDay",
+                  "ArrivalDest",
+                  "ReturnMonth",
+                  "ReturnDay",
+                  "ServiceClass",
+                  "AirLine",
+                  "BillingLname",
+                  "BillingFname",
+                  "CcNum"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "One Way",
+                  "3",
+                  "Zurich",
+                  "August",
+                  "23",
+                  "Acapulco",
+                  "September",
+                  "23",
+                  "Business",
+                  "Pangea Airlines",
+                  "Doe",
+                  "Jane",
+                  "2345"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25455600021,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#      | Round Trip |              2 | New York   | September   |         1 | London      | October     |         3 | Economy      | Unified Airlines | Doe          | John         |  1234 |"
+              },
+              {
+                "line": 17,
+                "value": "#    And configuration options\u003d\"VERBOSE\u003dfalse\""
+              }
+            ],
+            "line": 18,
+            "name": "reserving them",
+            "match": {
+              "location": "MercuryTours_Cucumber_KeyWords.mercury_reserveItineraries()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1545482,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "above scenario should succeed",
+            "match": {
+              "arguments": [
+                {},
+                {
+                  "val": "succeed",
+                  "offset": 22
+                }
+              ],
+              "location": "Cukes_Default_KeyWords.scenario_result(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smoketest"
+          },
+          {
+            "line": 11,
+            "name": "@screen_record"
+          }
+        ]
+      }
+    ],
+    "name": "As a user of Mercury Tours, I should be able to login into the Mercury Tours website and make several flight reservations",
+    "description": "",
+    "id": "as-a-user-of-mercury-tours,-i-should-be-able-to-login-into-the-mercury-tours-website-and-make-several-flight-reservations",
+    "keyword": "Feature",
+    "uri": "mercurytours/setup_flight_reservations1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@mercury"
+      }
+    ]
+  }
+]
