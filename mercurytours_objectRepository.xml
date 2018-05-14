@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Object Repository for MerccuryTours -->
+<!-- ObjectRepository (ObjectRepo.java) represents the parent of one or more PageObjects(ObjectRepoObject.java)-->
+<!-- A PageObject may contain one or more collections of web elements (ObjectRepoElelment.java). It is a representation of an actual page or could 
+	also represent a complex widget on a page. It contains the page object's name, page type, page location argument, page url, page iframe,page screenshot. 
+	If page url is defined this will take precedence over page location. The page_comment tag is for documentation and is 
+	optional.  The page_no_validation_check tag is used to exclude a page object from being validated.  The page screenshot tag determines if a screenshot is taken and is
+	further dependent on if screen shot capabilities are enabled for the session - see application properties file -->
+<!-- element (or component) contains the page element's name, its location type, location argument, url, iFrame, screenshot name. If url is defined this will take 
+	precedence over location. The comment tag is for documentation and is optional.  The validation_check tag is used to flag those elements to be validated.  The screenshot
+	references the name of the screenshot file if sceenshot capabilities are enabled for the session -->
+<!-- page_type in PageObject or type in Element denotes the reference type and must contain one of the possible values:xpath, id, name, classname, class, 
+	tagname, tag, linktext, link, partiallinktext, cssselector, css -->
+	
+<ObjectRepository name="SeleniumDemo">
+	<PageObject name="LoginPage">
+		<page_type></page_type>
+		<page_location></page_location>
+		<page_url>http://www.newtours.demoaut.com/</page_url>
+		<page_iframe></page_iframe>
+		<page_screenshot/>
+		<page_comment>This pageobject holds all links on Mercury Tours homepage</page_comment>
+		<element name="main_logo">
+			<comment>Refers to Mercury Tours logo</comment>
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@src='/images/nav/logo.gif']</location>
+                        <iframe></iframe>
+			<screenshot/>
+			<validation_check />			
+		</element>
+		<element name="uid_input">
+			<comment>Refers to userid</comment>
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='userName']</location>
+			<validation_check />			
+		</element>
+		<element name="pwd_input">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='password']</location>
+			<validation_check />						
+		</element>
+		<element name="signin_button">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='login']</location>
+			<validation_check />						
+		</element>
+		<element name="outagemessage">
+			<type>xpath</type>
+			<url></url>
+			<location>".//*[@id='outageMessage']/div[1]"</location>
+		</element>
+	</PageObject>
+	<PageObject name="FlightFinder">
+		<page_type></page_type>
+		<page_location></page_location>
+		<page_url>http://www.newtours.demoaut.com/mercuryreservation.php</page_url>
+		<page_screenshot/>
+		<element name="flightfinder_logo">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@src='/images/masts/mast_flightfinder.gif']</location>
+			<validation_check />						
+		</element>
+		<element name="roundtrip">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@type='radio' and @value='roundtrip']</location>
+			<validation_check />						
+		</element>
+		<element name="oneway">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@type='radio' and @value='oneway']</location>
+			<validation_check />						
+		</element>
+		<element name="passengercount">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='passCount']</location>
+			<validation_check />						
+		</element>
+		<element name="destinationcities">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='fromPort']</location>
+			<validation_check />						
+		</element>
+		<element name="departmonth">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='fromMonth']</location>
+			<validation_check />						
+		</element>
+		<element name="departday">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='fromDay']</location>
+			<validation_check />						
+		</element>
+		<element name="returnmonth">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='toMonth']</location>
+			<validation_check />						
+		</element>
+		<element name="returnday">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='toDay']</location>
+			<validation_check />						
+		</element>
+		<element name="arrivalcities">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='toPort']</location>
+			<validation_check />						
+		</element>
+		<element name="serviceclasses">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='servClass']</location>
+			<validation_check />						
+		</element>
+		<element name="setairlinepreference">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='airline']</location>
+			<validation_check />						
+		</element>
+		<element name="continuebutton">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='findFlights']</location>
+			<validation_check />						
+		</element>
+		<element name="signout">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@href='mercurysignoff.php']</location>
+			<validation_check />						
+		</element>
+	</PageObject>
+	<PageObject name="SelectFlight">
+		<page_type></page_type>
+		<page_location></page_location>
+		<page_url>http://newtours.demoaut.com/mercuryreservation2.php</page_url>
+		<page_screenshot/>
+		<element name="selectflight_logo">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@src='/images/masts/mast_selectflight.gif']</location>
+			<validation_check />						
+		</element>
+		<element name="continuebutton">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='reserveFlights']</location>
+			<validation_check />						
+		</element>
+	</PageObject>
+	<PageObject name="BookFlight">
+		<page_type></page_type>
+		<page_location></page_location>
+		<page_url>http://newtours.demoaut.com/mercurypurchase.php</page_url>
+		<page_screenshot/>
+		<element name="bookflight_logo">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@src='/images/masts/mast_book.gif']</location>
+			<validation_check />						
+		</element>
+		<element name="firstname">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='passFirst0']</location>
+			<validation_check />						
+		</element>
+		<element name="lastname">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='passLast0']</location>
+			<validation_check />						
+		</element>
+		<element name="ccnumber">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='creditnumber']</location>
+			<validation_check />
+			<screenshot/>
+		</element>
+		<element name="securepurchasebutton">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@name='buyFlights']</location>
+			<validation_check />						
+		</element>
+	</PageObject>
+	<PageObject name="FlightConfirmation">
+		<page_type></page_type>
+		<page_location></page_location>
+		<page_url>http://newtours.demoaut.com/mercurypurchase2.php</page_url>
+		<page_screenshot/>
+		<element name="flightconfirmation_logo">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@src='/images/masts/mast_confirmation.gif']</location>
+			<validation_check />						
+		</element>
+		<element name="logout">
+			<type>xpath</type>
+			<url></url>
+			<location>.//*[@src='/images/forms/Logout.gif']</location>
+			<validation_check />						
+		</element>
+	</PageObject>
+</ObjectRepository>
