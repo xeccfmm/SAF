@@ -1,5 +1,7 @@
-# SAF
-Selenium Automation Framework
+# SAF - Selenium Automation Framework
+## A collection of open source testing tools to facilitate quick turnaround on automation testing
+
+
 
 ## This repository shows some of the features of the framework:
 ### BDD (Cucumber) 
