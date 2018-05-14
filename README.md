@@ -1,7 +1,7 @@
 # SAF - Selenium Automation Framework
 ### A collection of open source testing tools to facilitate quick turnaround on automation testing
 ### Architecture view:
-![Screenshot](conceptual.gif)
+![Architectural Stack](../master/conceptual.gif)
 
 
 ## This repository shows some of the features of the framework:
