@@ -17,3 +17,7 @@
 ### JavaDoc
 - See the javadoc.zip for further documentation - due to the restriction of space on GitHub, files are zipped :(
 - Source code for the application MercuryTours can be viewed from the package com.selenium.framework.qa_automation.pageobject.mercurytours
+
+### Miscellaneous Files
+- Several application property files in the master root directory demonstrate how the framework uses a configuration-driven approach to facilitating customization by externalizing related properties
+- The SeleniumDemo_OR.properties and the mercurytours_objectRepository.xml shows the persistence of object references in a properties and XML format
