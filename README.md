@@ -15,5 +15,5 @@
 - Snapshots, video and log files for the session included
   
 ### JavaDoc
-- See the javadoc.zip for further documentation
+- See the javadoc.zip for further documentation - owning the restirction of space on GitHub, files are zipped :(
 - Source code for the application MercuryTours can be viewed from the package com.selenium.framework.qa_automation.pageobject.mercurytours
